@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BetaSource</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="../index.html" class="navbar-brand d-flex align-items-center text-center">
+                <img class="img-fluid" src="../assets/img/logo.png" alt="Icon" style="width: 150px;">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="../index.html" class="nav-item nav-link">Home</a>
+                    <a href="../about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Services</a>
+                        <div class="dropdown-menu shadow">
+                          <div class="mega-content p-4">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #29bf0729; border-radius: 2px;">
+                                    <a href="../SoftwareDevelopment/software-developmnet.html" class="dropdown-item" style="color: #29bf07;">Software Development</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../SoftwareDevelopment/custom-software-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Custom Software Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/mobile-app-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Mobile Application Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/white-label-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> White Label Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/software-product-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Software Product Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/ai-ml-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> AI/ML Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/api-integration.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> API Integration</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #00000021; border-radius: 2px;">
+                                    <a href="../SoftwareTesting/software-testing.html" class="dropdown-item" style="color: #000;">Software Testing</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../SoftwareTesting/api-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> API Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/test-automation.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Test Automation</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/micro-service-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Micro-Service Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/performance-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Performance Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/load-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Load Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/security-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Security Testing</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #07b5bf29; border-radius: 2px;">
+                                    <a href="../DevOps/devOps.html" class="dropdown-item" style="color: #07b5bf;">DevOps</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../DevOps/devOps-consulting.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> DevOps Consulting</a>
+                                        <a class="list-group-item" href="../DevOps/cicd-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> CI/CD Services</a>
+                                        <a class="list-group-item" href="../DevOps/containerization-orchestration.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Containerization and Orchestration</a>
+                                        <a class="list-group-item" href="../DevOps/infrastructure-management-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure Management Services</a>
+                                        <a class="list-group-item" href="../DevOps/infrastructure-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure as Code (IaC) Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #594a962b; border-radius: 2px;">
+                                    <a href="../Cloud/cloud-services.html" class="dropdown-item" style="color: #594a96;">Cloud Services</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../Cloud/cloud-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Consulting</a>
+                                        <a class="list-group-item" href="../Cloud/kubernetes-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Kubernetes Consulting Services</a>
+                                        <a class="list-group-item" href="../Cloud/data-analytics-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Data Analytics Consulting Services</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-assessment&cost-optimization.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Assessment and Cost Optimization Services</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-architecture-design.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Architecture Design</a>
+                                        <a class="list-group-item" href="../Cloud/micro-service-architecture&development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Micro-Service Architecture and Development</a>
+                                        <a class="list-group-item" href="../Cloud/Serverless-app-development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Serverless App Development</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-migration.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Migration Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #dc35451f; border-radius: 2px;">
+                                    <a href="../TrendingTechnology/trending-technology.html" class="dropdown-item" style="color: #dc3545;">Trending Technology</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../TrendingTechnology/artificial-intelligence.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Artificial Intelligence (AI)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/internet-of-things.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Internet of Things (IoT)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cybersecurity.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cybersecurity</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cloud-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cloud Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/edge-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Edge Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/blockchain.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Blockchain</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/virtual-augmented-reality.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Virtual and Augmented Reality</a>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <a href="../blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="../career.html" class="nav-item nav-link">Career</a>
+                    <a href="../portfolio.html" class="nav-item nav-link">Portfolio</a>
+                </div>
+                <a href="../contact.html" class="btn btn-primary px-3 my-3">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-white breadcumb-area p-0">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-12">
+                    <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
+                        <h1>  Cloud Architecture Design </h1>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li>  Cloud Architecture Design </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
+                    <div class="breadcumb-content addon">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li>  Cloud Architecture Design </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="container-fluid inner-services-top-area">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="inner-services-content">
+                    <div class="section-head mb-3 wow slideInDown" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Revolutionize </h5>
+                        <h3> Revolutionize Your Cloud Infrastructure with BetaSource's <span> Expert Cloud Architecture Design </span></h3>
+                    </div>
+                    <p class="pt-3">
+                        BetaSource's Cloud Architecture Design services cover many cloud technologies and platforms, including AWS, Azure, and Google Cloud Platform. The company's focus on agility and innovation ensures that its clients can quickly adapt to changing business requirements and take advantage of new cloud technologies. 
+                    </p>
+                    <p>
+                        The power of the cloud to drive growth, reduce costs, and achieve strategic objectives.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-lg-start text-center">
+                <img src="../assets/img/services/inner-serives/main16.png" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid inner-services-details py-5">
+        <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+            <h5 class="small-heading"> Services  </h5>
+            <h3> Our <span>  Cloud Architecture Design </span> Services</h3>
+        </div>
+        <div class="container mt-3">
+            <div class="row align-items-center ineer-services-box">
+
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="inner-services-image">
+                        <img src="../assets/img/services/inner-serives/img20.png" class="img-fluid"
+                            alt="Cloud Architecture Design">
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3> Plan For  <span> Cloud Technology Strategy </span> </h3>
+                    </div>
+                    <p>
+                        Developing a cloud technology strategy requires a well-defined plan that considers the organization's objectives, available resources, and risk tolerance. The project should start with identifying the business and IT drivers for cloud adoption and the benefits it could bring to the organization
+                    </p>
+                    <p>
+                        BetaSource's cloud technology strategy is focused on helping businesses leverage the latest cloud technologies and tools to improve their operational efficiency and agility.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center ineer-services-box">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3>Cloud <span> Managed </span> </h3>
+                    </div>
+                    <p>
+                        Cloud-managed services are a crucial aspect of modern businesses' cloud computing strategies. These services provide ongoing support for cloud infrastructure, such as managing servers, security, and data backups. BetaSource offers Cloud Managed Services to help businesses manage their cloud infrastructure and applications.
+                    </p>
+                    <p>
+                        BetaSource's team of experts provides 24/7 support to quickly identify and resolve any issues that arise, minimizing downtime and disruption.
+                    </p>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <img src="../assets/img/services/inner-serives/img3.png" alt="Cloud Architecture Design">
+                </div>
+
+            </div>
+            <div class="row align-items-center ineer-services-box">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <img src="../assets/img/services/inner-serives/img29.png"
+                        alt="Cloud Architecture Design">
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3> Cloud <span> Deployment </span></h3>
+                    </div>
+
+                    <p>
+                        Cloud deployment services are an essential part of modern business operations. These services involve installing and configuring cloud-based infrastructure, applications, and services for businesses. Cloud deployment services can be complex and require specialized skills, which is why many companies rely on third-party providers like BetaSource to handle this process.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid unique-approach-area pt-5">
+        <div class="container">
+            <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                <h5 class="small-heading"> Unique </h5>
+                <h3> Say goodbye to IT headaches with Betasource's <br> <span>  reliable  Cloud Architecture Design. </span> </h3>
+            </div>
+            <div class="row unique-approach-row my-5">
+                <div class="col-lg-4 unique-approach light-pink">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach1.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Expertise</h4>
+                            <p>
+                                Our team of experts has extensive experience in designing cloud architectures that are scalable, reliable, and secure. We have worked with various cloud platforms, including Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-purple">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach2.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Customized Solutions</h4>
+                            <p>
+                                We consider data volume, compliance requirements, and budget to design the exemplary cloud architecture for your business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-shyan">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach5.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Cost-Effective</h4>
+                            <p>
+                                Our solutions are designed to help you optimize your cloud spending and reduce overall costs. We consider factors such as usage patterns, data storage requirements, and application workloads to help you choose the right cloud services and configurations for your business.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-blue">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach3.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Security</h4>
+                            <p>
+                                We take security seriously and design our cloud architectures with safety in mind. We use industry-standard security protocols and employ best practices to ensure that your data is always protected.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-peach">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Collaboration</h4>
+                            <p>
+                                We work closely with our clients throughout the design and implementation process to ensure their needs are met. We keep our clients informed at every step and seek feedback to ensure that we deliver the right solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-maroon">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach14.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>24/7  Live DevOps Support</h4>
+                            <p>
+                                24/7 real-time DevOps support is offered by betasource.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container technology-stack pt-5">
+        <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+            <h5 class="small-heading"> Technology  </h5>
+            <h3> Technology <span> Stack </span> </h3>
+            <p class="mb-0">Unlocking the Power of the Future: Cloud Architecture Design Transforms Business</p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 pt-3">
+                <div class="technology-stack-box technology-stack-box-bg text-md-start text-center">
+                    <h4>AWS</h4>
+                    <p class="mb-0">
+                        AWS offers various services, including computing, storage, databases, analytics, machine learning, mobile, security, and IoT. With AWS, developers can quickly scale their applications to meet changing demands and pay only for the services they use
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pt-3">
+                <div class="technology-stack-box technology-stack-box-bg2 text-md-start text-center">
+                    <h4>Azure  </h4>
+                    <p class="mb-0">
+                        Microsoft Azure is a cloud computing platform that provides a wide range of services. Azure offers various services, including computing, storage, databases, analytics, machine learning, and security.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pt-3">
+                <div class="technology-stack-box technology-stack-box-bg3 text-md-start text-center">
+                    <h4>GCP</h4>
+                    <p class="mb-0">
+                        A cloud computing platform called Google Cloud Platform (GCP) offers a comprehensive range of services. GCP provides various services, including computing, storage, databases, analytics, machine learning, and security.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 pt-3">
+                <div class="technology-stack-box technology-stack-box-bg4 text-md-start text-center">
+                    <h4>Snowflake</h4>
+                    <p class="mb-0">
+                        Snowflake is a cloud-based data warehousing platform that provides a highly scalable, secure, and flexible solution for storing and analyzing enormous amounts of data. Snowflake provides a SQL-based query interface for accessing data, making it easy for data analysts, scientists, and engineers to work with large datasets. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid accelerate-area py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Future </h5>
+                        <h3>Mastering the Art of Cloud Architecture <span>  Designing Solutions for the Future </span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="pt-0 pb-0 wow slideInRight" data-wow-delay="0.1s">
+                        A well-designed cloud architecture can provide businesses with the flexibility, scalability, and cost-effectiveness they need to remain competitive in a rapidly changing digital landscape. 
+                    </p>
+                    <p>
+                        At BetaSource, our team of experts has the experience and knowledge required to create customized cloud architecture designs that meet the unique needs of our clients. 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate3.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate2.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Quality Assurance</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Provides a robust quality assurance process to ensure that the software meets your requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate5.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area  bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate1.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Support and Maintenance</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Support and maintenance for the software, ensuring that it continues to meet your needs and runs smoothly..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate4.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area  bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Customer Satisfaction</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Committed to customer satisfaction and guarantees you will be satisfied with the software delivered..</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FAQ's Start -->
+    <div class="container-fluid faq-section software-faqs mo-px-1 px-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="section-head mb-4">
+                        <h5 class="small-heading text-white"> FAQ </h5>
+                        <h3 class="text-white"> Freequently Asked <span> Question </span> </h3>
+                    </div>
+                    <p class="text-white">
+                        Get Your Questions Answered: BetaSource FAQ Has Got You Covered.
+                    </p>
+                    <div class="accordion accordion-flush pt-4" id="tab_container">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <span> What is Betasource Cloud Architecture Design? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Betasource Cloud Architecture Design is a service that helps businesses create cloud infrastructure tailored to their specific needs. It involves designing and implementing a cloud-based solution that meets your business objectives and technical requirements.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <span> What are the benefits of Betasource Cloud Architecture Design? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Some benefits of Betasource Cloud Architecture Design include increased scalability, improved performance and reliability, reduced operational costs, and enhanced security. With a well-designed cloud infrastructure, businesses can quickly adapt to changing needs, handle peak traffic and demand, and access data from anywhere.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    <span>Who can benefit from Betasource Cloud Architecture Design?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Betasource Cloud Architecture Design is ideal for businesses of all sizes and industries that want to leverage the benefits of cloud computing.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    <span>How does Betasource Cloud Architecture Design work?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Betasource Cloud Architecture Design begins with a consultation where we learn about your business objectives, technical requirements, and existing infrastructure. We then design a cloud-based solution that aligns with your goals and provides the required functionalities. Once the design is approved, we implement it and provide ongoing support and maintenance.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    <span> What cloud platforms does Betasource Cloud Architecture Design support? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Betasource Cloud Architecture Design supports multiple platforms, including Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, and IBM Cloud. We choose the most suitable platform based on your specific needs and requirements
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-shape">
+                    <div class="faq-shape-thumb">
+                        <img src="../assets/img/faq-shape.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ's End -->
+
+
+
+    <!-- Brand Slider Start -->
+    <div class="container-fluid py-5 brandSlider">
+        <div class="container">
+            <div class="row pt-50">
+                <div class="col-lg-12">
+                    <div class="betasource-top-title">
+                        <h3> More Then 500+ Brands with work BetaSource</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel brand-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/3.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/5.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/6.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/8.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/9.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/10.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/11.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Slider End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-white footer pt-5 mt-5">
+        <div class="container">
+            <div class="row subscribe-area wow slideInUp" data-wow-delay="0.2s">
+                <div class="col-lg-6 col-md-6">
+                    <div class="subscribe-title">
+                        <h1>Subscribe to our Newsletter</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <form name="subscription">
+                        <div class="subscribe_form">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="Enter Your Email">
+                            <button type="button" class="btn" onclick="subscriptionForm()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="subscribe-shape">
+                    <div class="subscribe-thumb bounce-animate5">
+                        <img src="../assets/img/footer/small-dot.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="subscribe-thumb1">
+                        <img src="../assets/img/footer/big-dot.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bg wow slideInUp" data-wow-delay="0.4s">
+                <div class="col-lg-4 col-md-6 pl-0">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p class="mb-2 d-flex"><i class="fa fa-map-marker-alt me-3"></i>301 Dheeraj Vandana Classic,
+                        24th Main Parangipalya, HSR Layout Sector 2, <br> Bangalore - 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 786 3889 382</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@betasource.tech</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Company</h5>
+                    <a class="btn btn-link text-white" href="../index.html">Home</a>
+                    <a class="btn btn-link text-white" href="../about.html">About Us</a>
+                    <a class="btn btn-link text-white" href="../contact.html">Contact Us</a>
+                    <a class="btn btn-link text-white" href="../blog.html">Blog</a>
+                    <a class="btn btn-link text-white" href="../portfolio.html">Portfolio</a>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-2">
+                    <h5 class="text-white mb-4">Services</h5>
+                    <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software
+                        Testing</a>
+                    <a class="btn btn-link text-white" href="../DevOps/devOps.html">DevOps</a>
+                    <a class="btn btn-link text-white" href="../Cloud/cloud-services.html">Cloud Services</a>
+                    <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software
+                        Developmnet</a>
+                    <a class="btn btn-link text-white" href="../TrendingTechnology/trending-technology.html">Trending Technology</a>
+                </div>
+                <div class="col-lg-3 col-md-6 pe-0">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <p>Betasource.Tech is a premier provider of innovative technology solutions for businesses of all
+                        sizes.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://twitter.com/BetasourceT"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.facebook.com/BetaSource.tech"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://in.pinterest.com/Betasourcetech/"><i class="fab fa-pinterest-p"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.linkedin.com/company/betasourcetech/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.instagram.com/betasource.tech/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container wow slideInUp" data-wow-delay="0.6s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0">Copyright
+                        &copy; 2023 <a class="border-bottom" href=""> BetaSource</a> . All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../assets/lib/wow/wow.min.js"></script>
+    <script src="../assets/lib/easing/easing.min.js"></script>
+    <script src="../assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../assets/js/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

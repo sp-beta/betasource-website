@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BetaSource</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="../index.html" class="navbar-brand d-flex align-items-center text-center">
+                <img class="img-fluid" src="../assets/img/logo.png" alt="Icon" style="width: 150px;">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="../index.html" class="nav-item nav-link">Home</a>
+                    <a href="../about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Services</a>
+                        <div class="dropdown-menu shadow">
+                          <div class="mega-content p-4">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #29bf0729; border-radius: 2px;">
+                                    <a href="../SoftwareDevelopment/software-developmnet.html" class="dropdown-item" style="color: #29bf07;">Software Development</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../SoftwareDevelopment/custom-software-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Custom Software Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/mobile-app-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Mobile Application Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/white-label-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> White Label Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/software-product-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Software Product Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/ai-ml-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> AI/ML Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/api-integration.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> API Integration</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #00000021; border-radius: 2px;">
+                                    <a href="../SoftwareTesting/software-testing.html" class="dropdown-item" style="color: #000;">Software Testing</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../SoftwareTesting/api-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> API Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/test-automation.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Test Automation</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/micro-service-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Micro-Service Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/performance-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Performance Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/load-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Load Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/security-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Security Testing</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #07b5bf29; border-radius: 2px;">
+                                    <a href="../DevOps/devOps.html" class="dropdown-item" style="color: #07b5bf;">DevOps</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../DevOps/devOps-consulting.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> DevOps Consulting</a>
+                                        <a class="list-group-item" href="../DevOps/cicd-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> CI/CD Services</a>
+                                        <a class="list-group-item" href="../DevOps/containerization-orchestration.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Containerization and Orchestration</a>
+                                        <a class="list-group-item" href="../DevOps/infrastructure-management-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure Management Services</a>
+                                        <a class="list-group-item" href="../DevOps/infrastructure-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure as Code (IaC) Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #594a962b; border-radius: 2px;">
+                                    <a href="../Cloud/cloud-services.html" class="dropdown-item" style="color: #594a96;">Cloud Services</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../Cloud/cloud-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Consulting</a>
+                                        <a class="list-group-item" href="../Cloud/kubernetes-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Kubernetes Consulting Services</a>
+                                        <a class="list-group-item" href="../Cloud/data-analytics-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Data Analytics Consulting Services</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-assessment&cost-optimization.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Assessment and Cost Optimization Services</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-architecture-design.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Architecture Design</a>
+                                        <a class="list-group-item" href="../Cloud/micro-service-architecture&development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Micro-Service Architecture and Development</a>
+                                        <a class="list-group-item" href="../Cloud/Serverless-app-development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Serverless App Development</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-migration.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Migration Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #dc35451f; border-radius: 2px;">
+                                    <a href="../TrendingTechnology/trending-technology.html" class="dropdown-item" style="color: #dc3545;">Trending Technology</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../TrendingTechnology/artificial-intelligence.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Artificial Intelligence (AI)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/internet-of-things.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Internet of Things (IoT)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cybersecurity.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cybersecurity</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cloud-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cloud Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/edge-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Edge Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/blockchain.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Blockchain</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/virtual-augmented-reality.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Virtual and Augmented Reality</a>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <a href="../blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="../career.html" class="nav-item nav-link">Career</a>
+                    <a href="../portfolio.html" class="nav-item nav-link">Portfolio</a>
+                </div>
+                <a href="../contact.html" class="btn btn-primary px-3 my-3">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-white breadcumb-area p-0">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-12">
+                    <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
+                        <h1> Artificial Intelligence (AI) </h1>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li> Artificial Intelligence (AI) </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
+                    <div class="breadcumb-content addon">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li> Artificial Intelligence (AI) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="container-fluid inner-services-top-area">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="inner-services-content">
+                    <div class="section-head mb-3 wow slideInDown" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Success </h5>
+                        <h3> Embrace the Future with AI <br> <span> Let Betasource Guide You to Success </span></h3>
+                    </div>
+                    <p class="pt-3">
+                        Betasource understands the power and potential of Artificial Intelligence (AI). That's why we have a dedicated team of experienced AI developers passionate about creating cutting-edge business solutions.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-lg-start text-center">
+                <img src="../assets/img/services/inner-serives/main20.png" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid inner-services-details py-5">
+        <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+            <h5 class="small-heading"> Services  </h5>
+            <h3> Our <span>  AI </span> Services</h3>
+        </div>
+        <div class="container mt-3">
+            <div class="row align-items-center ineer-services-box">
+
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="inner-services-image">
+                        <img src="../assets/img/services/inner-serives/img67.png" class="img-fluid" alt="AI/ML Development">
+                    </div>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3> <span> AI </span> Consulting</h3>
+                    </div>
+                    <p>
+                        We understand that AI can be a complex and daunting concept for many businesses, so we take a personalized approach to each project. We offer various AI consulting services, including data analysis, machine learning, natural language processing, and computer vision. With our expertise in AI, we help you unlock the potential of your data and provide insights that will help you make informed business decisions.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center ineer-services-box">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3><span> Machine Learning  </span> Development</h3>
+                    </div>
+                    <p>
+                        We develop machine learning algorithms that train on data to provide predictions, classifications, and recommendations. We specialize in machine learning development services that help businesses leverage the power of AI to gain a competitive edge. Our experienced team of machine learning developers is skilled in developing custom algorithms, models, and applications to automate tasks, gain insights, and improve decision-making. 
+                    </p>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <img src="../assets/img/services/inner-serives/img32.png" alt="AI/ML Development">
+                </div>
+
+            </div>
+            <div class="row align-items-center ineer-services-box">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <img src="../assets/img/services/inner-serives/img31.png" alt="AI/ML Development">
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3> <span> Natural Language Processing (NLP) </span> Service</h3>
+                    </div>
+                    <p>
+                        Natural Language Processing (NLP) is a field of artificial intelligence focusing on the interaction between computers and humans using natural language. At Betasource, we specialize in developing NLP solutions that allow businesses to analyze, interpret, and generate human language data. Our team creates NLP solutions that analyze and understand human language, allowing for more efficient and effective communication.
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center ineer-services-box">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h3> <span> Computer Vision </span> Service</h3>
+                    </div>
+                    <p>
+                        We develop computer vision solutions that analyze and understand images and videos, allowing for improved analysis and automation. Computer vision involves using algorithms and machine learning to enable computers to interpret and understand visual data from the world around us. Our team of experienced computer vision developers helps your business unlock the potential of this technology, from developing custom computer vision applications to integrating computer vision solutions into your existing systems.
+                    </p>
+                </div>
+                <div class=" col-sm-12 col-md-6 col-lg-6">
+                    <img src="../assets/img/services/inner-serives/img46.png" alt="AI/ML Development">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid unique-approach-area pt-5">
+        <div class="container">
+            <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                <h5 class="small-heading"> Unique </h5>
+                <h3> Experience the Benefits of AI<br> <span>  Betasource is Your Trusted Partner </span> </h3>
+                <p>Here are the general work steps that Betasource takes when working on an Artificial Intelligence (AI) project.</p>
+            </div>
+            <div class="row unique-approach-row my-5">
+                <div class="col-lg-4 unique-approach light-blue">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach12.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Project Planning and Requirements Gathering</h4>
+                            <p>
+                                Our team works closely with clients to understand their requirements, business goals, and objectives. We identify the problem they want to solve and determine the appropriate AI technology.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-pink">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach1.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Data Collection and Preparation</h4>
+                            <p>
+                                We collect and prepare data for the AI model. Data preparation includes cleaning, transforming, and normalizing the data to ensure accuracy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-green">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach13.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Model Selection and Training</h4>
+                            <p>
+                                We select the appropriate AI model that fits the problem and data. Our team trains the model using advanced algorithms and techniques such as deep reinforcement and machine learning to ensure accuracy and performance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-blue">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach3.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Model Evaluation and Testing</h4>
+                            <p>
+                                We evaluate the trained model to ensure it performs optimally. We test the model using different datasets to ensure accuracy and performance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-darkPing">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach10.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Deployment and Integration</h4>
+                            <p>
+                                We deploy the AI model into the client's environment, integrating it with their existing systems to ensure seamless operation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-green">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach4.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Maintenance and Monitoring</h4>
+                            <p>
+                                We provide continuous care and monitoring to ensure that the AI model performs optimally and meets the client's requirements.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid why-betasource pt-3">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-7 mt-3">
+                    <img src="../assets/img/services/inner-serives/img68.png" class="img-fluid">
+                </div>
+                <div class="col-lg-5 mt-3">
+                    <div class="section-head mb-3 wow slideInDown" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Artificial Intelligence </h5>
+                        <h3> From Vision to Reality <br> <span>  Let Betasource Bring Your AI Dreams to Life </span> </h3>
+                        <div class="lines pt-2 pb-4 wow slideInLeft" data-wow-delay="0.1s">
+                            <div class="line"></div>
+                        </div>
+                        <p class="mb-0">
+                            Betasource is committed to providing top-quality service and support to our clients. AI can potentially transform businesses, and We drive to assist our customers in using this exciting technology
+                        </p>
+                    </div>
+                      
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid accelerate-area py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Transforming </h5>
+                        <h3> Transforming Your Business with  <span>  Artificial Intelligence (AI) Solutions by BetaSource! </span>
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="pt-0 pb-0 wow slideInRight" data-wow-delay="0.1s">
+                        Betasource is the ideal partner for any company looking to take advantage of the latest advances in Artificial Intelligence (AI) development. Betasource has the skills and expertise to help businesses of any size and across all industries, from custom software development to AI-powered automation. 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate3.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate2.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Quality Assurance</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Provides a robust quality assurance process to ensure that the software meets your requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate5.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area  bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate1.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Support and Maintenance</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Support and maintenance for the software, ensuring that it continues to meet your needs and runs smoothly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate4.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area  bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Customer Satisfaction</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Committed to customer satisfaction and guarantees you will be satisfied with the software delivered.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FAQ's Start -->
+    <div class="container-fluid faq-section software-faqs mo-px-1 px-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="section-head mb-4">
+                        <h5 class="small-heading text-white"> FAQ </h5>
+                        <h3 class="text-white"> Freequently Asked <span> Question </span> </h3>
+                    </div>
+                    <p class="text-white">
+                        Get Your Questions Answered: BetaSource FAQ Has Got You Covered.
+                    </p>
+                    <div class="accordion accordion-flush pt-4" id="tab_container">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <span> What is Artificial Intelligence (AI)?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Artificial Intelligence refers to the ability of machines that can carry out duties that generally call for human intelligence, such as learning, reasoning, and problem-solving. AI involves the development of algorithms and models that enable machines to learn from data and improve their performance over time.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <span>What AI services does Betasource offer? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Betasource offers various AI services, including Natural Language Processing (NLP), machine learning, chatbot development, computer vision, and data analytics. Our experienced AI developers can create customized solutions tailored to your business needs.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    <span>How can AI benefit my business?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    AI can provide a range of benefits to businesses, including improved efficiency, enhanced customer experience, and increased productivity. AI-powered solutions can automate tasks, provide personalized recommendations to customers, and analyze data to identify opportunities for growth and optimization.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    <span> What industries can benefit from AI? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Any industry can benefit from AI solutions, including healthcare, finance, retail, and manufacturing. AI can help businesses in these industries improve operations, reduce costs, and provide better customer experiences.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    <span> How does Betasource ensure the security and privacy of AI solutions? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    At Betasource, we take the security and privacy of our client's data very seriously. We follow industry-standard best practices and use state-of-the-art technologies that guarantee the availability, integrity, and confidentiality of data processed by our AI solutions. Additionally, we work closely with our clients to meet their specific security and privacy requirements.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-shape">
+                    <div class="faq-shape-thumb">
+                        <img src="../assets/img/faq-shape.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ's End -->
+
+
+
+    <!-- Brand Slider Start -->
+    <div class="container-fluid py-5 brandSlider">
+        <div class="container">
+            <div class="row pt-50">
+                <div class="col-lg-12">
+                    <div class="betasource-top-title">
+                        <h3> More Then 500+ Brands with work BetaSource</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel brand-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/3.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/5.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/6.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/8.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/9.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/10.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/11.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Slider End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-white footer pt-5 mt-5">
+        <div class="container">
+            <div class="row subscribe-area wow slideInUp" data-wow-delay="0.2s">
+                <div class="col-lg-6 col-md-6">
+                    <div class="subscribe-title">
+                        <h1>Subscribe to our Newsletter</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <form name="subscription">
+                        <div class="subscribe_form">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="Enter Your Email">
+                            <button type="button" class="btn" onclick="subscriptionForm()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="subscribe-shape">
+                    <div class="subscribe-thumb bounce-animate5">
+                        <img src="../assets/img/footer/small-dot.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="subscribe-thumb1">
+                        <img src="../assets/img/footer/big-dot.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bg wow slideInUp" data-wow-delay="0.4s">
+                <div class="col-lg-4 col-md-6 pl-0">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p class="mb-2 d-flex"><i class="fa fa-map-marker-alt me-3"></i>301 Dheeraj Vandana Classic,
+                        24th Main Parangipalya, HSR Layout Sector 2, <br> Bangalore - 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 786 3889 382</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@betasource.tech</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Company</h5>
+                    <a class="btn btn-link text-white" href="../index.html">Home</a>
+                    <a class="btn btn-link text-white" href="../about.html">About Us</a>
+                    <a class="btn btn-link text-white" href="../contact.html">Contact Us</a>
+                    <a class="btn btn-link text-white" href="../blog.html">Blog</a>
+                    <a class="btn btn-link text-white" href="../portfolio.html">Portfolio</a>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-2">
+                    <h5 class="text-white mb-4">Services</h5>
+                    <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software
+                        Testing</a>
+                    <a class="btn btn-link text-white" href="../DevOps/devOps.html">DevOps</a>
+                    <a class="btn btn-link text-white" href="../Cloud/cloud-services.html">Cloud Services</a>
+                    <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software
+                        Developmnet</a>
+                        <a class="btn btn-link text-white" href="../TrendingTechnology/trending-technology.html">Trending Technology</a>
+                </div>
+                <div class="col-lg-3 col-md-6 pe-0">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <p>Betasource.Tech is a premier provider of innovative technology solutions for businesses of all
+                        sizes.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://twitter.com/BetasourceT"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.facebook.com/BetaSource.tech"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://in.pinterest.com/Betasourcetech/"><i class="fab fa-pinterest-p"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.linkedin.com/company/betasourcetech/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.instagram.com/betasource.tech/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container wow slideInUp" data-wow-delay="0.6s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0">Copyright
+                        &copy; 2023 <a class="border-bottom" href=""> BetaSource</a> . All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../assets/lib/wow/wow.min.js"></script>
+    <script src="../assets/lib/easing/easing.min.js"></script>
+    <script src="../assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../assets/js/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

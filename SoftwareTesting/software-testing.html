@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BetaSource</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid nav-bar bg-transparent">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center text-center">
+                    <img class="img-fluid" src="../assets/img/logo.png" alt="Icon" style="width: 150px;">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="../index.html" class="nav-item nav-link">Home</a>
+                        <a href="../about.html" class="nav-item nav-link">About</a>
+                        <div class="nav-item dropdown dropdown-mega position-static">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Services</a>
+                            <div class="dropdown-menu shadow">
+                              <div class="mega-content p-4">
+                                <div class="container-fluid">
+                                  <div class="row">
+                                    <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #29bf0729; border-radius: 2px;">
+                                        <a href="../SoftwareDevelopment/software-developmnet.html" class="dropdown-item" style="color: #29bf07;">Software Development</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../SoftwareDevelopment/custom-software-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Custom Software Development</a>
+                                            <a class="list-group-item" href="../SoftwareDevelopment/mobile-app-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Mobile Application Development</a>
+                                            <a class="list-group-item" href="../SoftwareDevelopment/white-label-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> White Label Development</a>
+                                            <a class="list-group-item" href="../SoftwareDevelopment/software-product-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Software Product Development</a>
+                                            <a class="list-group-item" href="../SoftwareDevelopment/ai-ml-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> AI/ML Development</a>
+                                            <a class="list-group-item" href="../SoftwareDevelopment/api-integration.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> API Integration</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #00000021; border-radius: 2px;">
+                                        <a href="../SoftwareTesting/software-testing.html" class="dropdown-item" style="color: #000;">Software Testing</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../SoftwareTesting/api-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> API Testing</a>
+                                            <a class="list-group-item" href="../SoftwareTesting/test-automation.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Test Automation</a>
+                                            <a class="list-group-item" href="../SoftwareTesting/micro-service-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Micro-Service Testing</a>
+                                            <a class="list-group-item" href="../SoftwareTesting/performance-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Performance Testing</a>
+                                            <a class="list-group-item" href="../SoftwareTesting/load-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Load Testing</a>
+                                            <a class="list-group-item" href="../SoftwareTesting/security-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Security Testing</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #07b5bf29; border-radius: 2px;">
+                                        <a href="../DevOps/devOps.html" class="dropdown-item" style="color: #07b5bf;">DevOps</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../DevOps/devOps-consulting.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> DevOps Consulting</a>
+                                            <a class="list-group-item" href="../DevOps/cicd-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> CI/CD Services</a>
+                                            <a class="list-group-item" href="../DevOps/containerization-orchestration.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Containerization and Orchestration</a>
+                                            <a class="list-group-item" href="../DevOps/infrastructure-management-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure Management Services</a>
+                                            <a class="list-group-item" href="../DevOps/infrastructure-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure as Code (IaC) Services</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #594a962b; border-radius: 2px;">
+                                        <a href="../Cloud/cloud-services.html" class="dropdown-item" style="color: #594a96;">Cloud Services</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../Cloud/cloud-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Consulting</a>
+                                            <a class="list-group-item" href="../Cloud/kubernetes-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Kubernetes Consulting Services</a>
+                                            <a class="list-group-item" href="../Cloud/data-analytics-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Data Analytics Consulting Services</a>
+                                            <a class="list-group-item" href="../Cloud/cloud-assessment&cost-optimization.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Assessment and Cost Optimization Services</a>
+                                            <a class="list-group-item" href="../Cloud/cloud-architecture-design.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Architecture Design</a>
+                                            <a class="list-group-item" href="../Cloud/micro-service-architecture&development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Micro-Service Architecture and Development</a>
+                                            <a class="list-group-item" href="../Cloud/Serverless-app-development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Serverless App Development</a>
+                                            <a class="list-group-item" href="../Cloud/cloud-migration.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Migration Services</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #dc35451f; border-radius: 2px;">
+                                        <a href="../TrendingTechnology/trending-technology.html" class="dropdown-item" style="color: #dc3545;">Trending Technology</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../TrendingTechnology/artificial-intelligence.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Artificial Intelligence (AI)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/internet-of-things.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Internet of Things (IoT)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cybersecurity.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cybersecurity</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cloud-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cloud Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/edge-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Edge Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/blockchain.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Blockchain</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/virtual-augmented-reality.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Virtual and Augmented Reality</a>
+                                        </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <a href="../blog.html" class="nav-item nav-link">Blog</a>
+                        <a href="../career.html" class="nav-item nav-link">Career</a>
+                        <a href="../portfolio.html" class="nav-item nav-link">Portfolio</a>
+                    </div>
+                    <a href="../contact.html" class="btn btn-primary px-3 my-3">Contact Us</a>
+                </div>
+            </nav>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Header Start -->
+        <div class="container-fluid header bg-white breadcumb-area p-0">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-12">
+                        <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
+                            <h1> Software Testing </h1>
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li> Software Testing </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
+                        <div class="breadcumb-content addon">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li> Software Testing </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header End -->
+
+
+        <!-- Software Testing Details Start -->
+        <div class="container-fluid software-testing-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                            <h5 class="small-heading"> Software Testing </h5>
+                            <h3 class="">Software's Potential with  <br> <span> Reliable Testing Solutions</span> from BetaSource</h3>
+                        </div>
+                        <div class="lines pt-2 pb-4 wow slideInLeft" data-wow-delay="0.1s">
+                            <div class="line"></div>
+                        </div>
+                        <div class="betasource-smart-title wow slideInLeft" data-wow-delay="0.2s">
+                            <p>
+                                Betasource is a reliable and professional software testing company that offers various testing services to help businesses improve their software. Our expertise and experience help companies identify errors, bugs, or glitches in their software and rectify them before launch.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center">
+                        <div class="betasource-about-thumb1 wow zoomIn" data-wow-delay="0.6s">
+                            <img src="../assets/img/services/softwareTesting/img1.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="about-shape-box wow zoomIn" data-wow-delay="0.2s">
+                            <div class="about-shape-thumb bounce-animate">
+                                <img src="../assets/img/services/softwareTesting/shape1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Software Testing Details END -->
+
+
+        <!-- Services Listing Start -->
+        <div class="container-fluid software-testing-service-list">
+            <div class="container">
+                <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                    <h5 class="small-heading"> Our Services </h5>
+                    <h3> Wide-Ranging <span> Software Testing Services</span> </h3>
+                </div>
+                <p class="text-center my-4"> 
+                    We understand the importance of software testing to ensure the quality and reliability of software applications. Our experienced team of testers employs various testing techniques to identify and address potential issues in the software. 
+                    Through consistent analysis and impartial evaluation, our primary focus is improving quality at every project stage, aiming for almost zero Post Delivery Defects, and ensuring maximum customer satisfaction.
+                </p>
+                    
+
+                <div class="row">
+                    <div class="col-md-6 d-flex">
+                        <div class="software-testing-service-bx left-gradient-border wow zoomIn" data-wow-delay="0.1s">
+                            <div class="software-testing-service-head">
+                                <img src="../assets/img/services/softwareTesting/s2.png">
+                                <a href="../SoftwareTesting/test-automation.html" class="ps-3">Test Automation</a>
+                            </div>
+                            <a href="../SoftwareTesting/test-automation.html">
+                                We offer a comprehensive range of testing tools and frameworks. Our team of experts helps you automate everything from unit tests to end-to-end regression tests, ensuring the robustness and reliability of your software. 
+                                Utilizing our services for test automation, you can eliminate manual regression testing procedures and trust us. It will save your group a great deal of time while fundamentally guaranteeing test adaptability, test quality, and responsiveness.                                
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="software-testing-service-bx right-gradient-border wow zoomIn" data-wow-delay="0.3s">
+                            <div class="software-testing-service-head">
+                                <img src="../assets/img/services/softwareTesting/s6.png">
+                                <a href="../SoftwareTesting/api-testing.html" class="ps-3">API Testing</a>
+                            </div>
+                            <a href="../SoftwareTesting/api-testing.html">
+                                Companies must place a greater emphasis on APIs' end-to-end functionalities as modern architecture evolves. It involves mobile solutions, cloud services, and other business applications that adhere to particular protocols such as XML, SOAP, REST, and others.
+                                We offer comprehensive API testing services to help businesses ensure the reliability and performance of their APIs. Our experienced testers use manual and automated testing methods to evaluate your API's functionality, usability, security, and scalability thoroughly. With our API testing services, you can identify and resolve issues early in development, saving you time and money.
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="software-testing-service-bx left-gradient-border wow zoomIn" data-wow-delay="0.6s">
+                            <div class="software-testing-service-head">
+                                <img src="../assets/img/services/softwareTesting/s4.png">
+                                <a href="../SoftwareTesting/micro-service-testing.html" class="ps-3">Micro-Service Testing</a>
+                                <h4 class="ps-3"></h4>
+                            </div>
+                            <a href="../SoftwareTesting/micro-service-testing.html">
+                                Your microservices' functionality, performance, security, and scalability maintain comprehensive testing strategies, which we can design and implement. Our experienced testers use industry-standard tools and methods to identify and resolve issues early in the development cycle to ensure your microservices are stable and dependable in production.
+                                As a result, you will have an entire microservices testing team. Management of the procedure for setting up the test environment, generation of test data, and design of the test cases are all included.
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="software-testing-service-bx right-gradient-border wow zoomIn" data-wow-delay="0.9s">
+                            <div class="software-testing-service-head">
+                                <img src="../assets/img/services/softwareTesting/s1.png">
+                                <a href="../SoftwareTesting/performance-testing.html" class="ps-3">Performance Testing</a>
+                            </div>
+                            <a href="../SoftwareTesting/performance-testing.html">
+                                Betasource offers top-notch performance testing services to help organizations ensure their software applications and systems perform optimally under various conditions. We test the Application's response time, scalability, reliability, and resource utilization to ensure it handle the expected traffic load. 
+                                We offer a foolproof performance testing solution that checks everything about apps' responsiveness, accessibility, and scalability for users.
+                                Among the essential aspects of performance testing are load testing, stress handling, endurance tests, benchmarking, and other crucial deliverables.
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="software-testing-service-bx left-gradient-border wow zoomIn" data-wow-delay="1s">
+                            <div class="software-testing-service-head">
+                                <img src="../assets/img/services/softwareTesting/s5.png">
+                                <a href="../SoftwareTesting/load-testing.html" class="ps-3">Load Testing</a>
+                            </div>
+                            <a href="../SoftwareTesting/load-testing.html">
+                                The load testing approach helps us identify bottlenecks and performance issues, allowing us to optimize the application's performance and enhance the end-user experience. Our load testing methodology includes creating test scenarios, generating traffic, and analyzing the results to provide clients with actionable insights to improve their application's performance.
+                                Our experts are professional load testing tools such as LoadRunner, Cloudtest, and Rational are commonly used, and data is gathered during the test.
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-flex">
+                        <div class="software-testing-service-bx right-gradient-border wow zoomIn" data-wow-delay="1.5s">
+                            <div class="software-testing-service-head">
+                                <img src="../assets/img/services/softwareTesting/s3.png">
+                                <a href="../SoftwareTesting/security-testing.html" class="ps-3">Security Testing</a>
+                            </div>
+                            <a href="../SoftwareTesting/security-testing.html">
+                                Our security testing services aim to make applications safe and secure for users by addressing vulnerable security issues. Our application security testing strategy does not compromise your data's confidentiality, integrity, and sensitivity. Also, our security testing engineers will ensure your application meets all applicable security regulations and guidelines.
+                                Our seasoned testers check the process and protect apps from potential threats. Our seasoned testers assist our clients in determining critical areas, prioritizing testing requirements, and coordinating appropriate strategies.
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services Listing END -->
+    
+
+
+        <!-- Tools Technology Slider Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row tool-technology-section-container">
+                    <div class="col-lg-12">
+                        <h1 class="text-white">Hire Dedicated Software Tester Developer</h1>
+                    </div>
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-9">
+                            <p class="mb-0 text-white">It's time to submit your requirements and get personalized talent for your Software Tester project now</p>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="rounded-btn">
+                                <a href="contact.html">Hire Now <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container tool-technology-section">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="tools-technology-item-inner">
+                            <h3>Flawless Design</h3>
+                            <p>Explore the best design with the help of our OXID developers for your project. </p>
+                            <div class="owl-carousel tools-technology-carousel wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/d1.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/d2.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/d3.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/d4.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/d5.svg">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tools-technology-item-inner">
+                            <h3>Effective Code</h3>
+                            <p>We code by using suitable frameworks to cater to business needs.</p>
+                            <div class="owl-carousel tools-technology-carousel wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code1.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code2.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code3.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code4.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code5.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code6.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code7.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/code8.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="tools-technology-item-inner">
+                            <h3>Easy Communication</h3>
+                            <p>Stay updated with daily code validations and reporting sheets with developers.</p>
+                            <div class="owl-carousel tools-technology-carousel wow fadeInUp" data-wow-delay="0.1s">
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/communication1.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/communication2.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/communication3.svg">
+                                    </div>
+                                </div>
+                                <div class="tools-technology-item">
+                                    <div class="tools-technology-box">
+                                        <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/services/communication4.svg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Tools Technology Slider END -->
+
+
+        <!-- Counter Start -->
+        <div class="container-fluid facts factsBG py-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                    <h5 class="small-heading"> Our Services </h5>
+                    <h3> <span> BetaSource </span> As a Software Testing Services Company</h3>
+                </div>
+                <div class="row gx-0 pt-3">
+                    <div class="col-lg-2 col-md-4 col-6 wow zoomIn" data-wow-delay="0.1s">
+                        <div class="bg-primary facts-box shadow p-3">
+                            <h3 class="text-white">600+</h3>
+                            <span class="text-white">Projects Delivered</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 wow zoomIn" data-wow-delay="0.3s">
+                        <div class="bg-secondary facts-box shadow p-3">
+                            <h3 class="text-white">96%</h3>
+                            <span class="text-white">Enterprise Client Retention</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 wow zoomIn" data-wow-delay="0.6s">
+                        <div class="bg-primary facts-box shadow p-3">
+                            <h3 class="text-white">200+</h3>
+                            <span class="text-white">Happy Clients</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 wow zoomIn" data-wow-delay="0.9s">
+                        <div class="bg-secondary facts-box shadow p-3">
+                            <h3 class="text-white">40+</h3>
+                            <span class="text-white">Countries Served</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 wow zoomIn" data-wow-delay="1s">
+                        <div class="bg-primary facts-box shadow p-3">
+                            <h3 class="text-white">10</h3>
+                            <span class="text-white">Clients of 8+ years</span>
+                            
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-4 col-6 wow zoomIn" data-wow-delay="1.5s">
+                        <div class="bg-secondary facts-box shadow p-3">
+                            <h3 class="text-white">4.8/5</h3>
+                            <span class="text-white">Customer Ratings</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Counter End -->
+
+
+        <!-- Related Industries Start -->
+        <div class="container-fluid py-5 industriesSlider">
+            <div class="container">
+                <div class="row pt-50">
+                    <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                        <h5 class="small-heading">Industries </h5>
+                        <h3> Related <span> Industries </span> </h3>
+                    </div>
+                </div>
+                <div class="owl-carousel industriesSlider-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries9.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries1.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries3.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries4.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries5.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries6.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries7.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/industries8.png">
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Related Industries End -->
+
+
+
+        <!-- Schedule Meeting Start -->
+        <div class="container mt-5 schedule-meeting">
+            <div class="row">
+                <div class="col-md-6 order-md-2 align-self-end">
+                    <div class="bast_talent_img wow slideInRight" data-wow-delay="0.2s">
+                        <img src="../assets/img/services/softwareTesting/img2.png" class="img-fluid">
+                    </div>
+                    <div class="about-shape-thumb3 bounce-animate4">
+                        <img src="../assets/img/services/softwareTesting/shape2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6 pb-5">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Project Needs </h5>
+                        <h3 class="">Software Testing Services For All Your <span> Project Needs </span></h3>
+                    </div>
+                    <div class="lines pt-2 pb-4 wow slideInLeft" data-wow-delay="0.1s">
+                        <div class="line"></div>
+                    </div>
+                    <p class="wow slideInLeft" data-wow-delay="0.2s">
+                        Software testing services are designed to cover all aspects of the software development lifecycle, including unit testing, integration testing, system testing, and performance testing. These services can be performed manually or automated, which is critical in ensuring that software programs are reliable, efficient, and secure
+                    </p>
+                    
+                    <div class="rounded-btn">
+                        <a href="contact.html">Schedule A Meeting <i class="fas fa-long-arrow-alt-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Schedule Meeting End -->
+
+
+        <!-- FAQ's Start -->
+        <div class="container-fluid faq-section software-faqs mo-px-1 px-5 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="section-head mb-4">
+                            <h5 class="small-heading text-white"> FAQ </h5>
+                            <h3 class="text-white"> Freequently Asked <span> Question </span> </h3>
+                        </div>
+                        <p class="text-white"> 
+                            Get Your Questions Answered: BetaSource FAQ Has Got You Covered.
+                         </p>
+                        <div class="accordion accordion-flush pt-4" id="tab_container">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        <span>What is software testing??</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#tab_container">
+                                    <div class="accordion-body">
+                                        Software testing evaluates the functionality, performance, and reliability of software applications to ensure that they meet the specified requirements and are free from defects.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        <span>Why is software testing necessary?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#tab_container">
+                                    <div class="accordion-body">
+                                        Software testing is crucial as it helps identify defects and errors in software applications before they are released to the end-users, which can save time and money by avoiding expensive fixes and recalls.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        <span>What are the benefits of Betasource Software Testing?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#tab_container">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>BetaSource.tech uses advanced testing techniques, such as automated testing a</li>
+                                            <li>We are improving the quality and functionality of the software, making it more reliable and efficient.</li>
+                                            <li>We are enhancing the user experience by ensuring that the software meets the needs and expectations of the end users.</li>
+                                            <li>Minimize the risk of security breaches and data loss by identifying and addressing vulnerabilities before they can be exploited.</li>
+                                            <li>We are ensuring compliance with industry standards and regulations, reducing the risk of legal and financial penalties.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                        aria-controls="flush-collapseFour">
+                                        <span>What services does Betasource offer?</span>
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingFour" data-bs-parent="#tab_container">
+                                    <div class="accordion-body">
+                                        Betasource offers a range of services, including software development, software testing, DevOps, cloud services and New Technologies development.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-shape">
+                        <div class="faq-shape-thumb">
+                            <img src="../assets/img/faq-shape.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FAQ's End -->
+
+
+
+        <!-- Brand Slider Start -->
+        <div class="container-fluid py-5 brandSlider">
+            <div class="container">
+                <div class="row pt-50">
+                    <div class="col-lg-12">
+                        <div class="betasource-top-title">
+                            <h3> More Then 500+ Brands with work BetaSource</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel brand-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/1.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/2.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/3.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/5.jpeg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/6.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/8.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/9.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/4.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/10.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="brandSlider-item bg-light rounded p-1">
+                        <div class="border rounded p-2">
+                            <div class="brands_grid_box">
+                                <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/11.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Brand Slider End -->
+
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid text-white footer pt-5 mt-5">
+            <div class="container">
+                <div class="row subscribe-area wow slideInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="subscribe-title">
+                            <h1>Subscribe to our Newsletter</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <form name="subscription">
+                            <div class="subscribe_form">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email">
+                                <button type="button" class="btn" onclick="subscriptionForm()">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="subscribe-shape">
+                        <div class="subscribe-thumb bounce-animate5">
+                            <img src="../assets/img/footer/small-dot.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="subscribe-thumb1">
+                            <img src="../assets/img/footer/big-dot.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-bg wow slideInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-4 col-md-6 pl-0">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p class="mb-2 d-flex"><i class="fa fa-map-marker-alt me-3"></i>301 Dheeraj Vandana Classic,
+                            24th Main Parangipalya, HSR Layout Sector 2, <br> Bangalore - 560102</p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 786 3889 382</p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@betasource.tech</p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-4">Company</h5>
+                        <a class="btn btn-link text-white" href="../index.html">Home</a>
+                        <a class="btn btn-link text-white" href="../about.html">About Us</a>
+                        <a class="btn btn-link text-white" href="../contact.html">Contact Us</a>
+                        <a class="btn btn-link text-white" href="../blog.html">Blog</a>
+                        <a class="btn btn-link text-white" href="../portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 ps-2">
+                        <h5 class="text-white mb-4">Services</h5>
+                        <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software Testing</a>
+                        <a class="btn btn-link text-white" href="../DevOps/devOps.html">DevOps</a>
+                        <a class="btn btn-link text-white" href="../Cloud/cloud-services.html">Cloud Services</a>
+                        <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software Developmnet</a>
+                        <a class="btn btn-link text-white" href="../TrendingTechnology/trending-technology.html">Trending Technology</a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pe-0">
+                        <h5 class="text-white mb-4">About Us</h5>
+                        <p>Betasource.Tech is a premier provider of innovative technology solutions for businesses of all sizes.</p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="https://twitter.com/BetasourceT"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.facebook.com/BetaSource.tech"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="https://in.pinterest.com/Betasourcetech/"><i class="fab fa-pinterest-p"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.linkedin.com/company/betasourcetech/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.instagram.com/betasource.tech/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container wow slideInUp" data-wow-delay="0.6s">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-12 text-center mb-3 mb-md-0">Copyright
+                            &copy; 2023 <a class="border-bottom" href=""> BetaSource</a> . All rights reserved
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../assets/lib/wow/wow.min.js"></script>
+    <script src="../assets/lib/easing/easing.min.js"></script>
+    <script src="../assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../assets/js/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>BetaSource</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../assets/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar bg-transparent">
+        <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
+            <a href="../index.html" class="navbar-brand d-flex align-items-center text-center">
+                <img class="img-fluid" src="../assets/img/logo.png" alt="Icon" style="width: 150px;">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="../index.html" class="nav-item nav-link">Home</a>
+                    <a href="../about.html" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Services</a>
+                        <div class="dropdown-menu shadow">
+                          <div class="mega-content p-4">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #29bf0729; border-radius: 2px;">
+                                    <a href="../SoftwareDevelopment/software-developmnet.html" class="dropdown-item" style="color: #29bf07;">Software Development</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../SoftwareDevelopment/custom-software-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Custom Software Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/mobile-app-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Mobile Application Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/white-label-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> White Label Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/software-product-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> Software Product Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/ai-ml-development.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> AI/ML Development</a>
+                                        <a class="list-group-item" href="../SoftwareDevelopment/api-integration.html"><i class="bi bi-arrow-right-short" style="color: #29bf07;"></i> API Integration</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #00000021; border-radius: 2px;">
+                                    <a href="../SoftwareTesting/software-testing.html" class="dropdown-item" style="color: #000;">Software Testing</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../SoftwareTesting/api-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> API Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/test-automation.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Test Automation</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/micro-service-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Micro-Service Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/performance-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Performance Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/load-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Load Testing</a>
+                                        <a class="list-group-item" href="../SoftwareTesting/security-testing.html"><i class="bi bi-arrow-right-short" style="color: #000;"></i> Security Testing</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #07b5bf29; border-radius: 2px;">
+                                    <a href="../DevOps/devOps.html" class="dropdown-item" style="color: #07b5bf;">DevOps</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../DevOps/devOps-consulting.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> DevOps Consulting</a>
+                                        <a class="list-group-item" href="../DevOps/cicd-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> CI/CD Services</a>
+                                        <a class="list-group-item" href="../DevOps/containerization-orchestration.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Containerization and Orchestration</a>
+                                        <a class="list-group-item" href="../DevOps/infrastructure-management-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure Management Services</a>
+                                        <a class="list-group-item" href="../DevOps/infrastructure-services.html"><i class="bi bi-arrow-right-short" style="color: #07b5bf;"></i> Infrastructure as Code (IaC) Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #594a962b; border-radius: 2px;">
+                                    <a href="../Cloud/cloud-services.html" class="dropdown-item" style="color: #594a96;">Cloud Services</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="../Cloud/cloud-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Consulting</a>
+                                        <a class="list-group-item" href="../Cloud/kubernetes-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Kubernetes Consulting Services</a>
+                                        <a class="list-group-item" href="../Cloud/data-analytics-consulting.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Data Analytics Consulting Services</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-assessment&cost-optimization.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Assessment and Cost Optimization Services</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-architecture-design.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Architecture Design</a>
+                                        <a class="list-group-item" href="../Cloud/micro-service-architecture&development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Micro-Service Architecture and Development</a>
+                                        <a class="list-group-item" href="../Cloud/Serverless-app-development.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Serverless App Development</a>
+                                        <a class="list-group-item" href="../Cloud/cloud-migration.html"><i class="bi bi-arrow-right-short" style="color: #594a96;"></i> Cloud Migration Services</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-4 col-md-4 py-2" style="background-color: #dc35451f; border-radius: 2px;">
+                                    <a href="../TrendingTechnology/trending-technology.html" class="dropdown-item" style="color: #dc3545;">Trending Technology</a>
+                                        <div class="list-group">
+                                            <a class="list-group-item" href="../TrendingTechnology/artificial-intelligence.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Artificial Intelligence (AI)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/internet-of-things.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Internet of Things (IoT)</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cybersecurity.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cybersecurity</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/cloud-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Cloud Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/edge-computing.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Edge Computing</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/blockchain.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Blockchain</a>
+                                            <a class="list-group-item" href="../TrendingTechnology/virtual-augmented-reality.html"><i class="bi bi-arrow-right-short" style="color: #dc3545;"></i> Virtual and Augmented Reality</a>
+                                        </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <a href="../blog.html" class="nav-item nav-link">Blog</a>
+                    <a href="../career.html" class="nav-item nav-link">Career</a>
+                    <a href="../portfolio.html" class="nav-item nav-link">Portfolio</a>
+                </div>
+                <a href="../contact.html" class="btn btn-primary px-3 my-3">Contact Us</a>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-white breadcumb-area p-0">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-12">
+                    <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
+                        <h1> Edge Computing </h1>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li> Edge Computing </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
+                    <div class="breadcumb-content addon">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li> Edge Computing </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+    <div class="container-fluid inner-services-top-area">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6">
+                <div class="inner-services-content">
+                    <div class="section-head mb-3 wow slideInDown" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> More Efficient </h5>
+                        <h3> Discover Faster and More Efficient Data Processing with BetaSource Edge Computing <span>  Welcome to BetaSource's Edge Computing Services </span></h3>
+                    </div>
+                    <p class="pt-3">
+                        Edge computing is a new and exciting technology that has emerged in recent years, offering significant benefits to businesses that require fast, reliable, and low-latency computing resources.
+                    </p>
+                    <p>
+                        <strong>
+                            So, What is Edge Computing, and How can it Benefit your Business?
+                        </strong>
+                    </p>
+                    <p>
+                        Edge computing is a distributed computing architecture that brings compute resources closer to the network's edge, where data is generated and consumed. By bringing added resources closer to the edge, edge computing can reduce latency, improve performance, and reduce network traffic, which can help businesses save costs.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 text-lg-start text-center">
+                <img src="../assets/img/services/inner-serives/main22.png" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container-fluid range-of-services py-5">
+        <div class="container">
+            <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                <h5 class="small-heading"> Transform  </h5>
+                <h3> Transform Your Edge Data Management with <span> BetaSource's Comprehensive </span> Services</h3>
+                <p class="text-center">
+                    BetaSource's Edge Computing Services are designed to provide businesses with the resources and infrastructure they need to deploy and manage their applications and services at the network's edge. Our edge computing services follow several steps to ensure businesses can get the most out of our technology and support.
+                </p>
+                <p class="text-center">
+                    Here's an overview of the steps involved in Beta Sources Edge Computing Services:
+                     Discovery and Assessment:  The first step in our edge computing services is to assess your business needs and determine the best approach for deploying and managing your applications and services at the network's edge.
+                </p>
+            </div>
+            <div class="row pt-5">
+                <div class="col-12">
+                    <div class="range-of-services-box">
+                        <div class="outsourcing-card">
+                            <div class="outsourcing-card-head">
+                                <img class="outsourcing-icon" src="../assets/img/services/trending/svg6.svg" alt="Network security">
+                                <h5> Edge Infrastructure Deployment</h5>
+                            </div>
+                            <div class="outsourcing-card-info">
+                                <p>
+                                    Our team will deploy the edge infrastructure needed to support your applications and services once we understand your requirements. It includes deploying hardware, software, and networking infrastructure at the network's edge.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="range-of-services-box">
+                        <div class="outsourcing-card">
+                            <div class="outsourcing-card-head">
+                                <img class="outsourcing-icon" src="../assets/img/services/trending/svg7.svg" alt="Endpoint security">
+                                <h5>Edge Application Development and Deployment</h5>
+                            </div>
+                            <div class="outsourcing-card-info">
+                                <p>
+                                    It includes optimizing applications for low-latency, high-performance computing and ensuring deployment to maximize reliability and availability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="range-of-services-box">
+                        <div class="outsourcing-card">
+                            <div class="outsourcing-card-head">
+                                <img class="outsourcing-icon" src="../assets/img/services/trending/svg8.svg" alt="Cloud Security">
+                                <h5>Edge Analytics and Insights</h5>
+                            </div>
+                            <div class="outsourcing-card-info">
+                                <p>
+                                    Once your applications and services are deployed, our team will work with you to analyze and gain insights from the data generated by your applications and services. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="range-of-services-box">
+                        <div class="outsourcing-card">
+                            <div class="outsourcing-card-head">
+                                <img class="outsourcing-icon" src="../assets/img/services/trending/svg9.svg" alt="Compliance and risk management">
+                                <h5>Continuous Monitoring and Support</h5>
+                            </div>
+                            <div class="outsourcing-card-info">
+                                <p>
+                                    Our edge computing services include constant monitoring and support to ensure your applications and services run smoothly and efficiently. Our team of experts will provide ongoing support to help you address any issues that arise and ensure that your applications and services are always available and performing at their best.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid unique-approach-area pt-5">
+        <div class="container">
+            <div class="section-head text-center mb-3 wow slideInDown" data-wow-delay="0.1s">
+                <h5 class="small-heading"> Accelerate </h5>
+                <h3> Accelerate Your Business Growth with<br> <span>BetaSource's Edge Computing Services </span> </h3>
+                <p>
+                    BetaSource's Edge Computing Services offer several advantages for businesses looking to improve efficiency and reduce latency.
+                </p>
+            </div>
+            <div class="row unique-approach-row my-5">
+                <div class="col-lg-4 unique-approach light-blue">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach12.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Reduced Latency</h4>
+                            <p>
+                                By bringing compute resources closer to the network's edge, BetaSource's Edge Computing Services can significantly reduce latency, enabling businesses to process and analyze data in near real-time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-pink">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach1.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Improved Reliability</h4>
+                            <p>
+                                With our Edge Computing Services, businesses can deploy their applications and services closer to their end-users and devices, reducing the need for data to travel long distances over a network.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-green">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach13.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Reduced Network Traffic</h4>
+                            <p>
+                                By processing data at the network's edge, businesses can reduce the amount of data that needs to be sent back to a central data center, reducing network traffic and saving costs associated with network bandwidth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-blue">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach3.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Lower Costs</h4>
+                            <p>
+                                BetaSource's Edge Computing Services can help businesses save costs associated with deploying and maintaining a centralized data center infrastructure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-darkPing">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach10.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Scalability</h4>
+                            <p>
+                                Our Edge Computing Services are designed to be highly scalable, enabling businesses to add or remove computing resources as needed quickly. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 unique-approach light-shyan">
+                    <div class="inner-unique-approach">
+                        <div class="image-inner-unique-approach">
+                            <img src="../assets/img/services/inner-serives/unique-approach8.png" class="img-fluid">
+                        </div>
+                        <div class="content-inner-unique-approach">
+                            <h4>Security</h4>
+                            <p>
+                                BetaSource's Edge Computing Services offer a range of security features, including data encryption, access controls, and network isolation, helping businesses ensure that their data is safe and secure.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid accelerate-area py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-12 col-lg-5">
+                    <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
+                        <h5 class="small-heading"> Next-Generation </h5>
+                        <h3> Get Ahead of the Game with BetaSource's  <span>  Next-Generation Edge Computing Technology </span></h3>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-7">
+                    <p class="pt-0 pb-0 wow slideInRight" data-wow-delay="0.1s">
+                        If you want to reduce latency, improve performance, and save costs, BetaSource's edge computing services are the perfect solution for your business. With our cutting-edge technology and expert support, you can be confident that your business is in good hands
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate3.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate2.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Quality Assurance</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Provides a robust quality assurance process to ensure that the software meets your requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate5.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area  bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate1.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Support and Maintenance</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Support and maintenance for the software, ensuring that it continues to meet your needs and runs smoothly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-3">
+                    <div class="inner-accelerate-area ms-15 me-15">
+                        <div class="img-inner-accelerate-area">
+                            <img src="../assets/img/services/inner-serives/accelerate4.png" alt="carousel-img">
+                        </div>
+                        <div class="icon-inner-accelerate-area  bounce-animate4">
+                            <img src="../assets/img/services/inner-serives/accelerate.svg" class="img-fluid">
+                        </div>
+                        <div class="accelerate-area-content">
+                            <div class="accelerate-area-content-title">
+                                <h2>Customer Satisfaction</h2>
+                            </div>
+                            <div class="accelerate-content-p">
+                                <p>Committed to customer satisfaction and guarantees you will be satisfied with the software delivered.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FAQ's Start -->
+    <div class="container-fluid faq-section software-faqs mo-px-1 px-5 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="section-head mb-4">
+                        <h5 class="small-heading text-white"> FAQ </h5>
+                        <h3 class="text-white"> Freequently Asked <span> Question </span> </h3>
+                    </div>
+                    <p class="text-white">
+                        Get Your Questions Answered: BetaSource FAQ Has Got You Covered.
+                    </p>
+                    <div class="accordion accordion-flush pt-4" id="tab_container">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <span>What is edge computing, and how does it work?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Edge computing is a distributed computing architecture that brings compute resources closer to the network's edge, where data is generated and consumed. By processing and analyzing data at the network's edge, edge computing can reduce latency, improve performance, and reduce network traffic.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <span>What edge computing services does BetaSource offer?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    BetaSource offers various edge computing services, including edge analytics, storage, and infrastructure. Our edge analytics services enable businesses to process and analyze data at the network's edge, while our edge storage services provide companies with a reliable and low-latency storage solution. 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    <span>How can edge computing benefit my business?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    Edge computing can help your business in some ways, including reducing latency, improving performance, and reducing network traffic. By bringing computing resources closer to the network's edge, edge computing can also help businesses save costs and improve the speed of decision-making processes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    <span>What kind of support does BetaSource offer for its edge computing services?</span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    BetaSource provides a range of support options for its edge computing services, including online resources, email support, and phone support.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingSix">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                    aria-controls="flush-collapseSix">
+                                    <span>How flexible are Beta Sources' edge computing services? </span>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingSix" data-bs-parent="#tab_container">
+                                <div class="accordion-body">
+                                    BetaSource's edge computing services are highly flexible and customizable, allowing businesses to tailor their solutions to clients' needs. Our team of experts is always on hand to help companies to design and implement edge computing solutions that meet their unique requirements.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-shape">
+                    <div class="faq-shape-thumb">
+                        <img src="../assets/img/faq-shape.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ's End -->
+
+
+
+    <!-- Brand Slider Start -->
+    <div class="container-fluid py-5 brandSlider">
+        <div class="container">
+            <div class="row pt-50">
+                <div class="col-lg-12">
+                    <div class="betasource-top-title">
+                        <h3> More Then 500+ Brands with work BetaSource</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel brand-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/3.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/5.jpeg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/6.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/8.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/9.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/10.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="brandSlider-item bg-light rounded p-1">
+                    <div class="border rounded p-2">
+                        <div class="brands_grid_box">
+                            <img class="img-fluid flex-shrink-0 rounded" src="../assets/img/home/11.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Slider End -->
+
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid text-white footer pt-5 mt-5">
+        <div class="container">
+            <div class="row subscribe-area wow slideInUp" data-wow-delay="0.2s">
+                <div class="col-lg-6 col-md-6">
+                    <div class="subscribe-title">
+                        <h1>Subscribe to our Newsletter</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <form name="subscription">
+                        <div class="subscribe_form">
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="Enter Your Email">
+                            <button type="button" class="btn" onclick="subscriptionForm()">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="subscribe-shape">
+                    <div class="subscribe-thumb bounce-animate5">
+                        <img src="../assets/img/footer/small-dot.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="subscribe-thumb1">
+                        <img src="../assets/img/footer/big-dot.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row footer-bg wow slideInUp" data-wow-delay="0.4s">
+                <div class="col-lg-4 col-md-6 pl-0">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p class="mb-2 d-flex"><i class="fa fa-map-marker-alt me-3"></i>301 Dheeraj Vandana Classic,
+                        24th Main Parangipalya, HSR Layout Sector 2, <br> Bangalore - 560102</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 786 3889 382</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@betasource.tech</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="text-white mb-4">Company</h5>
+                    <a class="btn btn-link text-white" href="../index.html">Home</a>
+                    <a class="btn btn-link text-white" href="../about.html">About Us</a>
+                    <a class="btn btn-link text-white" href="../contact.html">Contact Us</a>
+                    <a class="btn btn-link text-white" href="../blog.html">Blog</a>
+                    <a class="btn btn-link text-white" href="../portfolio.html">Portfolio</a>
+                </div>
+                <div class="col-lg-3 col-md-6 ps-2">
+                    <h5 class="text-white mb-4">Services</h5>
+                    <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software
+                        Testing</a>
+                    <a class="btn btn-link text-white" href="../DevOps/devOps.html">DevOps</a>
+                    <a class="btn btn-link text-white" href="../Cloud/cloud-services.html">Cloud Services</a>
+                    <a class="btn btn-link text-white" href="../SoftwareTesting/software-testing.html">Software
+                        Developmnet</a>
+                        <a class="btn btn-link text-white" href="../TrendingTechnology/trending-technology.html">Trending Technology</a>
+                </div>
+                <div class="col-lg-3 col-md-6 pe-0">
+                    <h5 class="text-white mb-4">About Us</h5>
+                    <p>Betasource.Tech is a premier provider of innovative technology solutions for businesses of all
+                        sizes.</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://twitter.com/BetasourceT"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.facebook.com/BetaSource.tech"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://in.pinterest.com/Betasourcetech/"><i class="fab fa-pinterest-p"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.linkedin.com/company/betasourcetech/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-outline-light btn-social" target="_blank"
+                            href="https://www.instagram.com/betasource.tech/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container wow slideInUp" data-wow-delay="0.6s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3 mb-md-0">Copyright
+                        &copy; 2023 <a class="border-bottom" href=""> BetaSource</a> . All rights reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="../assets/lib/wow/wow.min.js"></script>
+    <script src="../assets/lib/easing/easing.min.js"></script>
+    <script src="../assets/lib/waypoints/waypoints.min.js"></script>
+    <script src="../assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="../assets/js/counterup.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
