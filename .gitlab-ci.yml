@@ -1,3 +1,4 @@
+image: python:3.8
 stages:          # List of stages for jobs, and their order of execution
   - deploy
 
@@ -11,4 +12,5 @@ deploy-job:      # This job runs in the deploy stage.
     - pip3 install aws-sam-cli --upgrade
   script:
     - echo "Deploying application..."
+    - aws s3 ls
     - echo "Application successfully deployed."
