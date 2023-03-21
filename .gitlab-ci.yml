@@ -13,4 +13,6 @@ deploy-job:      # This job runs in the deploy stage.
   script:
     - echo "Deploying application..."
     - aws s3 ls
+    - aws s3 sync . s3://www.betasource.tech
+    - aws s3 sync . s3://betasource.tech
     - echo "Application successfully deployed."
