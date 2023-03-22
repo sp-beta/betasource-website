@@ -15,4 +15,4 @@ deploy-job:      # This job runs in the deploy stage.
     - aws s3 sync . s3://www.betasource.tech
     - aws s3 sync . s3://betasource.tech
     - aws cloudfront create-invalidation --distribution-id E1RZYSISKHQQ71 --paths "/*"
-    - echo "Application successfully deployed."
+    - echo "Application successfully deployed..."
