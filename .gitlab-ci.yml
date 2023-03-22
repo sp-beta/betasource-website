@@ -1,0 +1,18 @@
+image: python:3.8
+stages:          # List of stages for jobs, and their order of execution
+  - deploy
+
+deploy-job:      # This job runs in the deploy stage.
+  stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
+  environment: production
+  only:
+    - main
+  before_script:
+    - pip3 install awscli --upgrade
+    - pip3 install aws-sam-cli --upgrade
+  script:
+    - echo "Deploying application..."
+    - aws s3 sync . s3://www.betasource.tech
+    - aws s3 sync . s3://betasource.tech
+    - aws cloudfront create-invalidation --distribution-id E1RZYSISKHQQ71 --paths "/*"
+    - echo "Application successfully deployed."
