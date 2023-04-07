@@ -1,6 +1,16 @@
 (function ($) {
     "use strict";
 
+    // var fullHeight = function() {
+
+	// 	$('.js-fullheight').css('height', $(window).height());
+	// 	$(window).resize(function(){
+	// 		$('.js-fullheight').css('height', $(window).height());
+	// 	});
+
+	// };
+	// fullHeight();
+
     // Spinner
     var spinner = function () {
         setTimeout(function () {
@@ -34,6 +44,8 @@
             $('.back-to-top').fadeOut('slow');
         }
     });
+
+
     $('.back-to-top').click(function () {
         $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
         return false;
@@ -41,18 +53,18 @@
 
 
     // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        items: 1,
-        dots: true,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
+    // $(".header-carousel").owlCarousel({
+    //     autoplay: true,
+    //     smartSpeed: 1500,
+    //     items: 1,
+    //     dots: true,
+    //     loop: true,
+    //     nav : true,
+    //     navText : [
+    //         '<i class="bi bi-chevron-left"></i>',
+    //         '<i class="bi bi-chevron-right"></i>'
+    //     ]
+    // });
 
 
     // Testimonials carousel
@@ -125,8 +137,8 @@
     });
 
 
-        // industriesSlider carousel
-   $(".industriesSlider-carousel").owlCarousel({
+    // industriesSlider carousel
+    $(".industriesSlider-carousel").owlCarousel({
     autoplay: true,
     smartSpeed: 1000,
     margin: 24,
@@ -144,10 +156,47 @@
     }
     });
 
+    // Home Banner carousel
+    var carousel = function() {
+		$('.home-slider').owlCarousel({
+        animateOut: 'slideOutDown',
+        animateIn: 'heartBeat',
+	    loop:true,
+	    autoplay: true,
+	    margin:0,
+	    animateOut: 'fadeOut',
+	    animateIn: 'fadeIn',
+	    nav:true,
+	    dots: true,
+	    autoplayHoverPause: false,
+	    items: 1,
+	    navText : ["<span class='bi bi-chevron-left'></span>","<span class='bi bi-chevron-right'></span>"],
+	    responsive:{
+	      0:{
+	        items:1
+	      },
+	      600:{
+	        items:1
+	      },
+	      1000:{
+	        items:1
+	      }
+	    }
+		});
+
+	};
+	carousel();
+
+    
 
 
 })(jQuery);
 
+// Footer / Header
+$(function(){
+    $("#footer").load("footer.html");
+    $("#navHeader").load("header.html");
+});
 
 function subscriptionForm() {
     if (document.subscription.email.value == "") {
