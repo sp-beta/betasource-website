@@ -655,6 +655,7 @@ h6,
     text-transform: uppercase;
     color: #fff;
     line-height: 1;
+    
 }
 
 @media (max-width: 991.98px) {
@@ -668,10 +669,12 @@ h6,
     letter-spacing: 2px;
     font-weight: 700;
     color: white;
-    display: inline-block;
     position: relative;
     text-transform: uppercase;
     letter-spacing: 0.01em;
+    display: inline-block;
+    padding: 20px 20px;
+    border: 2px solid #fff;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .button-arrow::after {
@@ -688,7 +691,7 @@ h6,
 .owl-carousel.home-slider .slider-item .slider-text .button-arrow1::after {
     content: ' ';
     position: absolute;
-    left: 26%;
+    left: 23%;
     top: -20px;
     background-image: url(../img/home/arrow.png);
     background-repeat: no-repeat;
@@ -699,7 +702,7 @@ h6,
 .owl-carousel.home-slider .slider-item .slider-text .button-arrow2::before {
     content: ' ';
     position: absolute;
-    left: 45%;
+    left: 52%;
     top: -22px;
     background-image: url(../img/home/arrow2.png);
     background-repeat: no-repeat;
@@ -710,7 +713,7 @@ h6,
 .owl-carousel.home-slider .slider-item .slider-text .button-arrow3::before {
     content: ' ';
     position: absolute;
-    left: 59%;
+    left: 64%;
     top: -22px;
     background-image: url(../img/home/arrow2.png);
     background-repeat: no-repeat;
