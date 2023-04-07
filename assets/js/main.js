@@ -218,7 +218,7 @@ function subscriptionForm() {
         }
     }).then((Response) => {
         document.subscription.reset();
-        alert('Thank you for filling out your information!');
+        window.location.href="/thankYou.html"
     });
 }
 
@@ -254,7 +254,7 @@ function contactFormButton() {
         }
     }).then((Response) => {
         document.contactForm.reset();
-        alert('Thank you for filling out your information!');
+        window.location.href="/thankYou.html"
     });
 }
 
@@ -290,7 +290,7 @@ function contact() {
         }
     }).then((Response) => {
         document.contactForm.reset();
-        alert('Thank you for filling out your information!');
+        window.location.href="/thankYou.html"
     });
 
 
