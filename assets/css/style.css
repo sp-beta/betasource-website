@@ -568,7 +568,7 @@ h6,
     height: 100%;
     background-position: center;
     background-size: cover;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 /* .carousel-inner .carousel-item .fill img{
     width: 100%;
@@ -626,13 +626,14 @@ h6,
 }
 
 .carousel-inner .carousel-item .carousel-caption h1{
-    font-size: 65px;
+    font-size: 80px;
     text-align: center;
     color: #fff;
 }
 .carousel-inner .carousel-item .carousel-caption h6{
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
+    font-weight: normal;
 }
 
 @media all and(transform-3d),(-webkit-transform-3d){
