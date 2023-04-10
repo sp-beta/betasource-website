@@ -633,7 +633,7 @@ h6,
     color: #fff;
 }
 .carousel-inner .carousel-item .carousel-caption h6{
-    font-size: 30px;
+    font-size: 26px;
     color: #fff;
     font-weight: normal;
 }
@@ -654,7 +654,7 @@ h6,
     }
 }
 .carousel .carousel-indicators {
-    margin-bottom: 8rem;
+    margin-bottom: 7rem;
 }
 
 
@@ -719,7 +719,7 @@ h6,
         position: relative;
         /* margin-top: -75px; */
         /* margin-top: -30px; */
-        margin-top: -120px;
+        margin-top: -99px;
         z-index: 1;
     }
 }
