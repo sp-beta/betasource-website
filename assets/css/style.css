@@ -656,7 +656,11 @@ h6,
 .carousel .carousel-indicators {
     margin-bottom: 7rem;
 }
-
+@media (max-width: 767px) {
+    .carousel .carousel-indicators {
+        display: none;
+    }
+}
 
 
 @-webkit-keyframes moveLeftBounces-two {
@@ -1182,7 +1186,7 @@ video {
     background: url(../img/home/img6.png);
     padding: 56px 16px 28px 30px;
     position: relative;
-    margin-bottom: 30px;
+    margin: 30px 0px;
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1328,7 +1332,7 @@ video {
 
 @media only screen and (max-width: 960px) {
     .choose-section .choose-shape {
-        right: 0%;
+        display: none;
     }
 
     .choose-section .content-wrapper {
@@ -1340,6 +1344,9 @@ video {
     .choose-section {
         background-color: #000;
         background-image: none;
+    }
+    .choose-section .section-head .section-content-text p{
+        width: 100%;
     }
 }
 
@@ -1697,8 +1704,9 @@ video {
     }
 
     .about-area .about-shape-thumb1 {
-        left: 0;
-        bottom: -139px;
+        /* left: 0;
+        bottom: -139px; */
+        display: none;
     }
 }
 
