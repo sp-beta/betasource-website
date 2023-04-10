@@ -157,35 +157,34 @@
     });
 
     // Home Banner carousel
-    var carousel = function() {
-		$('.home-slider').owlCarousel({
-        animateOut: 'slideOutDown',
-        animateIn: 'heartBeat',
-	    loop:true,
-	    autoplay: true,
-	    margin:0,
-	    animateOut: 'fadeOut',
-	    animateIn: 'fadeIn',
-	    nav:true,
-	    dots: true,
-	    autoplayHoverPause: false,
-	    items: 1,
-	    navText : ["<span class='bi bi-chevron-left'></span>","<span class='bi bi-chevron-right'></span>"],
-	    responsive:{
-	      0:{
-	        items:1
-	      },
-	      600:{
-	        items:1
-	      },
-	      1000:{
-	        items:1
-	      }
-	    }
-		});
+    // var carousel = function() {
+	// 	$('.home-slider').owlCarousel({
+	//     loop:true,
+	//     autoplay: true,
+	//     margin:0,
+	//     animateOut: 'slideOutDown',
+    //     animateIn: 'flipInX',
+	//     nav:true,
+	//     dots: true,
+	//     autoplayHoverPause: false,
+    //     smartSpeed:450,
+	//     items: 1,
+	//     navText : ["<span class='bi bi-chevron-left'></span>","<span class='bi bi-chevron-right'></span>"],
+	//     responsive:{
+	//       0:{
+	//         items:1
+	//       },
+	//       600:{
+	//         items:1
+	//       },
+	//       1000:{
+	//         items:1
+	//       }
+	//     }
+	// 	});
 
-	};
-	carousel();
+	// };
+	// carousel();
 
     
 
