@@ -560,8 +560,10 @@ h6,
 }
 
 .carousel-inner .carousel-item {
-    height: 100%;
-    min-height: 300px;
+    /* height: 100%;
+    min-height: 300px; */
+    height: 100vh;
+    min-height: 548px;
 }
 .carousel-inner .carousel-item .fill{
     width: 100%;
@@ -651,6 +653,9 @@ h6,
         transform: translate3d(-100%, 0, 0);
     }
 }
+.carousel .carousel-indicators {
+    margin-bottom: 8rem;
+}
 
 
 
@@ -713,7 +718,8 @@ h6,
     .facts {
         position: relative;
         /* margin-top: -75px; */
-        margin-top: -30px;
+        /* margin-top: -30px; */
+        margin-top: -120px;
         z-index: 1;
     }
 }
