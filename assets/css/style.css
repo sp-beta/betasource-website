@@ -660,6 +660,18 @@ h6,
     .carousel .carousel-indicators {
         display: none;
     }
+    .carousel-inner .carousel-item .carousel-caption h1 {
+        font-size: 50px;
+    }
+    .carousel-inner .carousel-item .carousel-caption h6 {
+        font-size: 20px;
+    }
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .carousel-control-next-icon {
+        display: none;
+    }
 }
 
 
@@ -884,7 +896,10 @@ video {
     }
 
     .about-section .section-img.shape5 {
-        left: 0px;
+        display: none;
+    }
+    .about-section .section-img.shape4{
+        display: none;
     }
 }
 
@@ -3116,7 +3131,11 @@ video {
         font-size: 18px;
     }
 }
-
+@media only screen and (max-width: 992px) {
+    .industries-serve .common-about-shape .common-about-shape1-thumb1 img {
+        display: none;
+    }
+}
 
 
 .skill-area {
@@ -4395,6 +4414,12 @@ video {
 
 .inner-services-top-area img {
     width: 90%;
+}
+
+@media only screen and (max-width: 992px) {
+    .inner-services-top-area {
+        background-image: none;
+    }
 }
 
 /* Section-3 */
