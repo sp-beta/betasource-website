@@ -191,10 +191,11 @@
 
 })(jQuery);
 
-// Footer / Header
+// Footer / Header/ Brand Slider
 $(function(){
     $("#footer").load("footer.html");
     $("#navHeader").load("header.html");
+    // $("#brandSlider").load("brandSlider.html");
 });
 
 function subscriptionForm() {
