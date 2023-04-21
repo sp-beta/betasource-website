@@ -74,7 +74,9 @@ h6,
 .bg-light {
     background-color: var(--light) !important;
 }
-
+.text-justify{
+    text-align: justify;
+}
 .section-head span {
     color: var(--secondary);
 }
@@ -4802,6 +4804,113 @@ video {
     margin: 0 auto;
     display: block;
 }
+
+
+
+.work-road-map {
+}
+
+.bottom-pattern {
+    line-height: 0;
+}
+/********************************** Case Study Page Start ********************************/
+
+.case-study-details {
+    background: url(https://html.dreamitsolution.net/itsoft-consultant/assets/images/resource/why-choose-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 0 0;
+}
+.case-study-details .case-study-Rows li {
+    flex-wrap: nowrap;
+    color: #ffffff;
+}
+.case-study-details .case-study-Rows li {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    color: #000000;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.case-study-details .case-study-Rows .case-study-icons {
+    min-width: 60px;
+    min-height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 50%;
+    margin-right: 10px
+}
+.case-study-details .case-study-Rows .case-study-icons img {
+    width: 30px;
+    height: 30px;
+}
+.case-study-details .case-study-Rows li p {
+    padding-bottom: 0;
+    font-weight: 300;
+    margin: 0px;
+}
+.case-study-details .case-study-Rows li h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.mobile-app-develop {
+    background-color: #d7e1f9;
+    overflow: inherit;
+}
+.mobile-app-develop .mobile-app-develop-image img {
+    width: 100%;
+}
+.mobile-app-develop p.contnet-area{
+    margin-right: 60px;
+}
+.mobile-app-develop .card .card-header {
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
+    margin-bottom: 0;
+    background-color: transparent;
+    border-bottom: none;
+}
+.mobile-app-develop .card .card-header h5{
+    margin-bottom: 0;
+}
+.mobile-app-develop .card .card-body {
+    padding: 1.5rem;
+    position: relative;
+}
+.mobile-app-develop .card .card-body p {
+    margin-bottom: 0;
+}
+.mobile-app-develop .card .card-body::after {
+    content: "";
+    width: 150px;
+    height: 9px;
+    border-radius: 5px 5px 0px 0px;
+    background: #3356af;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+/********************************** Case Study Page END ********************************/
+
+
+
+/********************************** UI UX Page Start ********************************/
+
+
+
+
+
+/********************************** UI UX Page END ********************************/
+
 
 
 /********************************** Tanks you page ********************************/
