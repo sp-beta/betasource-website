@@ -2160,12 +2160,12 @@ video {
     font-size: 19px;
 }
 
-.caseStudies .case-study-thumb2:hover .ai-ml-portfolio.video-icon {
+.caseStudies .case-study-thumb2:hover .video-icon {
     top: 13px;
     opacity: 1;
 }
 
-.ai-ml-portfolio.video-icon {
+.video-icon {
     position: absolute;
     top: 80px;
     right: 13px;
@@ -2181,7 +2181,7 @@ video {
     display: inline-block;
 }
 
-.caseStudies-aadon .ai-ml-portfolio.video-icon a {
+.caseStudies-aadon .video-icon a {
     width: 40px;
     height: 40px;
     line-height: 42px;
