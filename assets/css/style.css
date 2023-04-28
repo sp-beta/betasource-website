@@ -2193,7 +2193,6 @@ video {
     font-size: 13px;
 }
 
-
 /*** FAQ ***/
 .faq-section {
     background: url(../img/faq-bg.jpg);
@@ -4906,7 +4905,10 @@ video {
 /********************************** UI UX Page Start ********************************/
 
 
-
+.prototyping-area img{
+    text-align: right;
+    width: 80%;
+}
 
 
 /********************************** UI UX Page END ********************************/
