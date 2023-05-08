@@ -2195,7 +2195,7 @@ video {
 
 /*** FAQ ***/
 .faq-section {
-    background: url(../img/faq-bg.jpg);
+    background: url(../img/faq-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -2614,7 +2614,7 @@ video {
 
 /************************************* Footer *************************************/
 .footer {
-    background: url(../img/footer-bg.png);
+    background: url(../img/footer-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 75px 0 0px;
