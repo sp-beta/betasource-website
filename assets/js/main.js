@@ -3,13 +3,13 @@
 
     // var fullHeight = function() {
 
-	// 	$('.js-fullheight').css('height', $(window).height());
-	// 	$(window).resize(function(){
-	// 		$('.js-fullheight').css('height', $(window).height());
-	// 	});
+    // 	$('.js-fullheight').css('height', $(window).height());
+    // 	$(window).resize(function(){
+    // 		$('.js-fullheight').css('height', $(window).height());
+    // 	});
 
-	// };
-	// fullHeight();
+    // };
+    // fullHeight();
 
     // Spinner
     var spinner = function () {
@@ -20,8 +20,8 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -34,8 +34,8 @@
             $('.nav-bar').removeClass('sticky-top');
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -47,7 +47,7 @@
 
 
     $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        $('html, body').animate({ scrollTop: 0 }, 1500, 'easeInOutExpo');
         return false;
     });
 
@@ -74,59 +74,59 @@
         margin: 24,
         dots: false,
         loop: true,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
         ],
         responsive: {
-            0:{
-                items:1
+            0: {
+                items: 1
             },
-            992:{
-                items:2
+            992: {
+                items: 2
             }
         }
     });
 
 
-   // Brands carousel
-   $(".brand-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1000,
-    margin: 24,
-    dots: false,
-    loop: true,
-    nav : true,
-    navText : false,
-    responsive: {
-        0:{
-            items:2
-        },
-        992:{
-            items:5
-        }
-    }
-    });
+    // Brands carousel
+    // $(".brand-carousel").owlCarousel({
+    //     autoplay: true,
+    //     smartSpeed: 1000,
+    //     margin: 24,
+    //     dots: false,
+    //     loop: true,
+    //     nav: true,
+    //     navText: false,
+    //     responsive: {
+    //         0: {
+    //             items: 2
+    //         },
+    //         992: {
+    //             items: 5
+    //         }
+    //     }
+    // });
 
 
     // Brands carousel
-   $(".tools-technology-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1000,
-    margin: 24,
-    dots: false,
-    loop: true,
-    nav : true,
-    navText : false,
-    responsive: {
-        0:{
-            items:2
-        },
-        992:{
-            items:4
+    $(".tools-technology-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 24,
+        dots: false,
+        loop: true,
+        nav: true,
+        navText: false,
+        responsive: {
+            0: {
+                items: 2
+            },
+            992: {
+                items: 4
+            }
         }
-    }
     });
 
 
@@ -139,63 +139,81 @@
 
     // industriesSlider carousel
     $(".industriesSlider-carousel").owlCarousel({
-    autoplay: true,
-    smartSpeed: 1000,
-    margin: 24,
-    dots: false,
-    loop: true,
-    nav : true,
-    navText : false,
-    responsive: {
-        0:{
-            items:2
-        },
-        992:{
-            items:4
+        autoplay: true,
+        smartSpeed: 1000,
+        margin: 24,
+        dots: false,
+        loop: true,
+        nav: true,
+        navText: false,
+        responsive: {
+            0: {
+                items: 2
+            },
+            992: {
+                items: 4
+            }
         }
-    }
     });
 
     // Home Banner carousel
     // var carousel = function() {
-	// 	$('.home-slider').owlCarousel({
-	//     loop:true,
-	//     autoplay: true,
-	//     margin:0,
-	//     animateOut: 'slideOutDown',
+    // 	$('.home-slider').owlCarousel({
+    //     loop:true,
+    //     autoplay: true,
+    //     margin:0,
+    //     animateOut: 'slideOutDown',
     //     animateIn: 'flipInX',
-	//     nav:true,
-	//     dots: true,
-	//     autoplayHoverPause: false,
+    //     nav:true,
+    //     dots: true,
+    //     autoplayHoverPause: false,
     //     smartSpeed:450,
-	//     items: 1,
-	//     navText : ["<span class='bi bi-chevron-left'></span>","<span class='bi bi-chevron-right'></span>"],
-	//     responsive:{
-	//       0:{
-	//         items:1
-	//       },
-	//       600:{
-	//         items:1
-	//       },
-	//       1000:{
-	//         items:1
-	//       }
-	//     }
-	// 	});
+    //     items: 1,
+    //     navText : ["<span class='bi bi-chevron-left'></span>","<span class='bi bi-chevron-right'></span>"],
+    //     responsive:{
+    //       0:{
+    //         items:1
+    //       },
+    //       600:{
+    //         items:1
+    //       },
+    //       1000:{
+    //         items:1
+    //       }
+    //     }
+    // 	});
 
-	// };
-	// carousel();
+    // };
+    // carousel();
 
-    
+
 
 
 })(jQuery);
 
 // Footer / Header/ Brand Slider
-$(function(){
-    $("#footer").load("footer.html");
-    $("#navHeader").load("header.html");
-    // $("#brandSlider").load("brandSlider.html");
+$(function () {
+    $("#footer").load("../footer.html");
+    $("#navHeader").load("../header.html");
+    $("#brand").load("../brands.html", function(){
+        $(".brand-carousel").owlCarousel({
+            autoplay: true,
+            smartSpeed: 1000,
+            margin: 24,
+            dots: false,
+            loop: true,
+            nav : true,
+            navText : false,
+            responsive: {
+                0:{
+                    items:2
+                },
+                992:{
+                    items:5
+                }
+            }
+        });
+    });
 });
 
 function subscriptionForm() {
@@ -218,7 +236,7 @@ function subscriptionForm() {
         }
     }).then((Response) => {
         document.subscription.reset();
-        window.location.href="/thankYou.html"
+        window.location.href = "/thankYou.html"
     });
 }
 
@@ -254,7 +272,7 @@ function contactFormButton() {
         }
     }).then((Response) => {
         document.contactForm.reset();
-        window.location.href="/thankYou.html"
+        window.location.href = "/thankYou.html"
     });
 }
 
@@ -269,13 +287,13 @@ function contact() {
         document.contactForm.email.focus();
         return false;
     }
-   
+
 
     var name = document.contactForm.name.value;
     var email = document.contactForm.email.value;
     var number = document.contactForm.phone.value;
     var message = document.contactForm.message.value;
-   
+
     const body = {
         name,
         email,
@@ -290,7 +308,7 @@ function contact() {
         }
     }).then((Response) => {
         document.contactForm.reset();
-        window.location.href="/thankYou.html"
+        window.location.href = "/thankYou.html"
     });
 
 
@@ -299,3 +317,12 @@ function contact() {
 
 
 
+
+// $(document).ready(function() {
+//     $('.navbar-collapse .navbar-nav a').on("click", function(){
+//         console.log(this, 'active1')
+//         $('.navbar-collapse .navbar-nav a').find('.active').removeClass('active');
+//         $(this).addClass('active');
+//     });
+    
+// });
