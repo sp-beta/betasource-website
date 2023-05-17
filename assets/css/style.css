@@ -4915,7 +4915,7 @@ video {
 
 
 
-/********************************** Tanks you page ********************************/
+/********************************** Tanks you page / 404 ********************************/
 
 .thanksPage {
     background-image: url(../img/thanks.jpg);
@@ -4926,4 +4926,17 @@ video {
     height: 100%;
 }
 
-/********************************** Tanks you page End********************************/
+.errorpage .row{
+    padding-top: 150px;
+}
+
+.errorpage .row h1{
+    font-size: 120px;
+}
+
+@media only screen and (max-width: 992px) {
+    .errorpage .row{
+        padding-top: 0px;
+    }
+}
+/********************************** Tanks you page / 404 End********************************/
