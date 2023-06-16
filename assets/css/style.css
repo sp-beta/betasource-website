@@ -2621,7 +2621,7 @@ video {
 }
 
 .footer .footer-bg {
-    padding: 85px 0 100px;
+    padding: 85px 0 5px;
     position: relative;
 }
 
@@ -3748,6 +3748,21 @@ video {
     left: -62px;
     top: -62px;
 }
+
+
+.blockchain_box {
+    align-items: center;
+    background: #00b4be0f;
+    border-bottom: 2px solid #00b4be;
+    display: flex;
+    padding: 20px 35px;
+    margin-bottom: 20px;
+}
+
+.blockchain_box a{
+    color: #000;
+}
+
 
 /********************************** Portfolio Page END********************************/
 
