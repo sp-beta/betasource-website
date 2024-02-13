@@ -1,604 +1,783 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title> Betasorce.Tech Private Ltd - Your Partner in Cutting-Edge Technology Solutions</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="title" content=" Betasorce.Tech Private Ltd - Your Partner in Cutting-Edge Technology Solutions">
-    <meta name="description"
-        content="Betasorce.Tech Private Ltd, a visionary in IoT, AI, ML, and Software Development. Discover our commitment to excellence and innovative technology solutions">
-    <meta name="keywords"
-        content="Betasource, Betasource.Tech, Software Development, DevOps, Cloud, Testing, IoT, Blockchain, App Devlopment,Cyber Security, Technology, Innovation, Ci/CD,AL/ML, VR,AR, New Technology Service Provider, JavaScript,Python,Ai , Software Tesing">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Betasorce.Tech Private Ltd - Your Partner in Cutting-Edge Technology
+      Solutions
+    </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="title"
+      content=" Betasorce.Tech Private Ltd - Your Partner in Cutting-Edge Technology Solutions"
+    />
+    <meta
+      name="description"
+      content="Betasorce.Tech Private Ltd, a visionary in IoT, AI, ML, and Software Development. Discover our commitment to excellence and innovative technology solutions"
+    />
+    <meta
+      name="keywords"
+      content="Betasource, Betasource.Tech, Software Development, DevOps, Cloud, Testing, IoT, Blockchain, App Devlopment,Cyber Security, Technology, Innovation, Ci/CD,AL/ML, VR,AR, New Technology Service Provider, JavaScript,Python,Ai , Software Tesing"
+    />
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": "betasource.tech",
-          "url": "https://betasource.tech/",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://betasource.tech/index.html{search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "betasource.tech",
+        "url": "https://betasource.tech/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://betasource.tech/index.html{search_term_string}",
+          "query-input": "required name=search_term_string"
         }
+      }
     </script>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.png" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-</head>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+  </head>
 
-<body class="bg-white">
+  <body class="bg-white">
     <!-- Spinner Start -->
-    <div id="spinner"
-        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
-
 
     <!-- Navbar Start -->
     <div id="navHeader" class="container-fluid nav-bar bg-transparent"></div>
     <!-- Navbar End -->
 
-
     <!-- Header Start -->
     <div class="container-fluid header bg-white breadcumb-area p-0">
-        <div class="container">
-            <div class="row d-flex align-items-center">
-                <div class="col-lg-12">
-                    <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
-                        <h1> About Us </h1>
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li> About Us </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
-                    <div class="breadcumb-content addon">
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li> About Us </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-12">
+            <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
+              <h1>About Us</h1>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About Us</li>
+              </ul>
             </div>
+          </div>
+          <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
+            <div class="breadcumb-content addon">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>About Us</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Header End -->
 
-
     <!-- About Start -->
     <div class="container-fluid about-page-details">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="row process-bg">
-                        <div class="col-lg-6 col-md-6 wow slideInLeft" data-wow-delay="0.2s">
-                            <div class="process-single-box">
-                                <div class="process-number">
-                                    <span>1</span>
-                                </div>
-                                <div class="process-title">
-                                    <h3>Cutting Edge <span> Solutions</span></h3>
-                                    <p>
-                                        Forefront of technology advancements and provides cutting-edge solutions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 wow slideInLeft" data-wow-delay="0.8s">
-                            <div class="process-single-box upper">
-                                <div class="process-number">
-                                    <span>2</span>
-                                </div>
-                                <div class="process-title">
-                                    <h3> Expert <span> Team Members </span></h3>
-                                    <p>
-                                        Extensive knowledge and experience in technology and dedicated high-quality.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 wow slideInLeft" data-wow-delay="0.2s">
-                            <div class="process-single-box upper1">
-                                <div class="process-number">
-                                    <span>3</span>
-                                </div>
-                                <div class="process-title">
-                                    <h3> Customer Focused<span> Approach </span></h3>
-                                    <p>
-                                        Power of technology to transform businesses and are dedicated to delivering
-                                        solutions.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 wow slideInLeft" data-wow-delay="0.6s">
-                            <div class="process-single-box upper2">
-                                <div class="process-number">
-                                    <span>4</span>
-                                </div>
-                                <div class="process-title">
-                                    <h3> 24/7<span> Hours Customer Support </span></h3>
-                                    <p>
-                                        24/7 Hours real-time support is offered by betasource and anytime open our
-                                        customer service.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6">
+            <div class="row process-bg">
+              <div
+                class="col-lg-6 col-md-6 wow slideInLeft"
+                data-wow-delay="0.2s"
+              >
+                <div class="process-single-box">
+                  <div class="process-number">
+                    <span>1</span>
+                  </div>
+                  <div class="process-title">
+                    <h3>Cutting Edge <span> Solutions</span></h3>
+                    <p>
+                      Forefront of technology advancements and provides
+                      cutting-edge solutions.
+                    </p>
+                  </div>
                 </div>
-                <div class="col-lg-6 col-md-6 ps-5">
-                    <div class="section-head mb-3 wow slideInRight" data-wow-delay="0.1s">
-                        <h5 class="small-heading"> About BetaSource </h5>
-                        <h3> Welcome to <span> Betasource.tech! </span></h3>
-                    </div>
-                    <div class="lines pt-2 pb-4 wow slideInRight" data-wow-delay="0.1s">
-                        <div class="line"></div>
-                    </div>
-                    <p class="about-text"> “Empowering Businesses with Innovative Technology Solutions.” </p>
-                    <div class="wow slideInRight" data-wow-delay="0.1s">
-                        <p>
-                            We understand the importance of technology in today's digital landscape, and we work
-                            tirelessly to provide cutting-edge solutions that help our clients thrive. Betasource team
-                            of experienced developers and a commitment to delivering results.
-                        </p>
-
-                    </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-6 wow slideInLeft"
+                data-wow-delay="0.8s"
+              >
+                <div class="process-single-box upper">
+                  <div class="process-number">
+                    <span>2</span>
+                  </div>
+                  <div class="process-title">
+                    <h3>Expert <span> Team Members </span></h3>
+                    <p>
+                      Extensive knowledge and experience in technology and
+                      dedicated high-quality.
+                    </p>
+                  </div>
                 </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-6 wow slideInLeft"
+                data-wow-delay="0.2s"
+              >
+                <div class="process-single-box upper1">
+                  <div class="process-number">
+                    <span>3</span>
+                  </div>
+                  <div class="process-title">
+                    <h3>Customer Focused<span> Approach </span></h3>
+                    <p>
+                      Power of technology to transform businesses and are
+                      dedicated to delivering solutions.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-lg-6 col-md-6 wow slideInLeft"
+                data-wow-delay="0.6s"
+              >
+                <div class="process-single-box upper2">
+                  <div class="process-number">
+                    <span>4</span>
+                  </div>
+                  <div class="process-title">
+                    <h3>24/7<span> Hours Customer Support </span></h3>
+                    <p>
+                      24/7 Hours real-time support is offered by betasource and
+                      anytime open our customer service.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 col-md-6 ps-5">
+            <div
+              class="section-head mb-3 wow slideInRight"
+              data-wow-delay="0.1s"
+            >
+              <h5 class="small-heading">About BetaSource</h5>
+              <h3>Welcome to <span> Betasource.tech! </span></h3>
+            </div>
+            <div class="lines pt-2 pb-4 wow slideInRight" data-wow-delay="0.1s">
+              <div class="line"></div>
+            </div>
+            <p class="about-text">
+              “Empowering Businesses with Innovative Technology Solutions.”
+            </p>
+            <div class="wow slideInRight" data-wow-delay="0.1s">
+              <p>
+                We understand the importance of technology in today's digital
+                landscape, and we work tirelessly to provide cutting-edge
+                solutions that help our clients thrive. Betasource team of
+                experienced developers and a commitment to delivering results.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
 
-
     <div class="container-fluid abouts py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 wow slideInLeft" data-wow-delay="0.2s">
-                    <div class="singles-abouts-boxs">
-                        <div class="abouts-thumb">
-                            <img class="img-fluid" src="assets/img/about/a1.png" alt="about" title="about">
-                            <div class="about-inner-content">
-                                <div class="abouts-titles">
-                                    <h3>Harnessing the Power of Technology to Drive Business Success</h3>
-                                    <div class="abouts-icons">
-                                        <a href="index.html"><i class="fas fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 wow slideInLeft" data-wow-delay="0.2s">
+            <div class="singles-abouts-boxs">
+              <div class="abouts-thumb">
+                <img
+                  class="img-fluid"
+                  src="assets/img/about/a1.png"
+                  alt="about"
+                  title="about"
+                />
+                <div class="about-inner-content">
+                  <div class="abouts-titles">
+                    <h3>
+                      Harnessing the Power of Technology to Drive Business
+                      Success
+                    </h3>
+                    <div class="abouts-icons">
+                      <a href="index.html"
+                        ><i class="fas fa-angle-right"></i
+                      ></a>
                     </div>
+                  </div>
                 </div>
-                <div class="col-lg-6 col-md-6 wow slideInRight" data-wow-delay="0.2s">
-                    <div class="common-about-shape">
-                        <div class="common-about-shape-thumb2 rotateme">
-                            <img class="img-fluid" src="assets/img/about/about.png" alt="about" title="about">
-                        </div>
-                    </div>
-                    <div class="singles-abouts-boxs">
-                        <div class="abouts-thumb">
-                            <img class="img-fluid" src="assets/img/about/a2.png" alt="about" title="about">
-                            <div class="abouts-titles addon">
-                                <h3>Revolutionize Your Business with Technology Solutions</h3>
-                                <div class="abouts-icons">
-                                    <a href="index.html"><i class="fas fa-angle-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-6 col-md-6 wow slideInRight" data-wow-delay="0.2s">
+            <div class="common-about-shape">
+              <div class="common-about-shape-thumb2 rotateme">
+                <img
+                  class="img-fluid"
+                  src="assets/img/about/about.png"
+                  alt="about"
+                  title="about"
+                />
+              </div>
+            </div>
+            <div class="singles-abouts-boxs">
+              <div class="abouts-thumb">
+                <img
+                  class="img-fluid"
+                  src="assets/img/about/a2.png"
+                  alt="about"
+                  title="about"
+                />
+                <div class="abouts-titles addon">
+                  <h3>Revolutionize Your Business with Technology Solutions</h3>
+                  <div class="abouts-icons">
+                    <a href="index.html"><i class="fas fa-angle-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-
-
 
     <div class="container-fluid skill-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="extra-animation-div">
-                        <div class="section-head mb-3 wow slideInLeft" data-wow-delay="0.1s">
-                            <h5 class="small-heading text-white"> Community </h5>
-                            <h3 class="text-white"> Join the <span> Betasource Community</span></h3>
-                        </div>
-                        <div class="lines pt-2 pb-4 wow slideInLeft" data-wow-delay="0.1s">
-                            <div class="line"></div>
-                        </div>
-                        <div class="wow slideInLeft" data-wow-delay="0.2s">
-                            <p class="text-white">Betasource community is a vibrant and dynamic technology enthusiast
-                                who shares a passion for innovation and progress. Joining the Betasource community is a
-                                unique opportunity to work with passionate and talented professionals.</p>
-                        </div>
-                    </div>
-                    <div class="prossess-bar-area pt-2">
-                        <span class="prosses-title wow slideInLeft" data-wow-delay="0.2s">Software Development</span>
-                        <div class="progress wow slideInLeft" data-wow-delay="0.2s">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:92%">92%
-                            </div>
-                        </div>
-                        <span class="prosses-title wow slideInLeft" data-wow-delay="0.4s">Trending Technology</span>
-                        <div class="progress wow slideInLeft" data-wow-delay="0.4s">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">90%
-                            </div>
-                        </div>
-                        <span class="prosses-title wow slideInLeft" data-wow-delay="0.6s">DevOps </span>
-                        <div class="progress wow slideInLeft" data-wow-delay="0.6s">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%">80%
-                            </div>
-                        </div>
-                        <span class="prosses-title wow slideInLeft" data-wow-delay="0.6s">Cloud Service </span>
-                        <div class="progress wow slideInLeft" data-wow-delay="0.6s">
-                            <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:95%">95%
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 wow slideInRight" data-wow-delay="0.1s">
-                    <div class="slill-single-thumb ms-1">
-                        <img src="assets/img/about/shape4.png" class="img-fluid" alt="about" title="about">
-                    </div>
-                    <div class="common-about-shape">
-                        <div class="common-about-shape1-thumb1 bounce-animate2">
-                            <img src="assets/img/about/shape5.png" class="img-fluid" alt="about" title="about">
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-6">
+            <div class="extra-animation-div">
+              <div
+                class="section-head mb-3 wow slideInLeft"
+                data-wow-delay="0.1s"
+              >
+                <h5 class="small-heading text-white">Community</h5>
+                <h3 class="text-white">
+                  Join the <span> Betasource Community</span>
+                </h3>
+              </div>
+              <div
+                class="lines pt-2 pb-4 wow slideInLeft"
+                data-wow-delay="0.1s"
+              >
+                <div class="line"></div>
+              </div>
+              <div class="wow slideInLeft" data-wow-delay="0.2s">
+                <p class="text-white">
+                  Betasource community is a vibrant and dynamic technology
+                  enthusiast who shares a passion for innovation and progress.
+                  Joining the Betasource community is a unique opportunity to
+                  work with passionate and talented professionals.
+                </p>
+              </div>
             </div>
+            <div class="prossess-bar-area pt-2">
+              <span class="prosses-title wow slideInLeft" data-wow-delay="0.2s"
+                >Software Development</span
+              >
+              <div class="progress wow slideInLeft" data-wow-delay="0.2s">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 92%"
+                >
+                  92%
+                </div>
+              </div>
+              <span class="prosses-title wow slideInLeft" data-wow-delay="0.4s"
+                >Trending Technology</span
+              >
+              <div class="progress wow slideInLeft" data-wow-delay="0.4s">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 90%"
+                >
+                  90%
+                </div>
+              </div>
+              <span class="prosses-title wow slideInLeft" data-wow-delay="0.6s"
+                >DevOps
+              </span>
+              <div class="progress wow slideInLeft" data-wow-delay="0.6s">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 80%"
+                >
+                  80%
+                </div>
+              </div>
+              <span class="prosses-title wow slideInLeft" data-wow-delay="0.6s"
+                >Cloud Service
+              </span>
+              <div class="progress wow slideInLeft" data-wow-delay="0.6s">
+                <div
+                  class="progress-bar progress-bar-striped progress-bar-animated"
+                  style="width: 95%"
+                >
+                  95%
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 wow slideInRight" data-wow-delay="0.1s">
+            <div class="slill-single-thumb ms-1">
+              <img
+                src="assets/img/about/shape4.png"
+                class="img-fluid"
+                alt="about"
+                title="about"
+              />
+            </div>
+            <div class="common-about-shape">
+              <div class="common-about-shape1-thumb1 bounce-animate2">
+                <img
+                  src="assets/img/about/shape5.png"
+                  class="img-fluid"
+                  alt="about"
+                  title="about"
+                />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
-
 
     <div class="container-fluid service-providing">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7 col-md-6">
-                    <div class="section-head mb-5 wow slideInLeft" data-wow-delay="0.1s">
-                        <h5 class="small-heading "> Services </h5>
-                        <h3 class="">We Run All Kinds Of Services</h3>
-                        <h3 class=""> From <span> Technologies </span></h3>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6">
-                    <div class="rounded-btn text-end wow slideInRight" data-wow-delay="0.2s">
-                        <a href="index.html">All Services <i class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 col-md-6">
+            <div
+              class="section-head mb-5 wow slideInLeft"
+              data-wow-delay="0.1s"
+            >
+              <h5 class="small-heading">Services</h5>
+              <h3 class="">We Run All Kinds Of Services</h3>
+              <h3 class="">From <span> Technologies </span></h3>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-6 pt-5 d-flex">
-                    <div class="betasource-service-box wow slideInUp" data-wow-delay="0.8s">
-                        <div class="service-box-inner">
-                            <div class="betasource-service-icon">
-                                <img src="assets/img/about/s4.svg" alt="about" title="about">
-                            </div>
-                            <div class="betasource-service-title">
-                                <h2> Software Development </h2>
-                            </div>
-                            <div class="service-number">
-                                <h1> 01 </h1>
-                            </div>
-                            <div class="betasource-service-text">
-                                <p> We understand the importance of technology in today's digital landscape, and we work
-                                    tirelessly to provide cutting-edge solutions that help our clients thrive.
-                                    Betasource team of experienced developers and a commitment to delivering results,
-                                    Betasource has earned a reputation as a leader in the software development industry.
-                                </p>
-                            </div>
-                            <div class="service-button">
-                                <a href="software-development/software-developmnet.html"> Read More <i
-                                        class="bi bi-plus"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 col-md-6 pt-5 d-flex">
-                    <div class="betasource-service-box wow slideInUp" data-wow-delay="0.2s">
-                        <div class="service-box-inner">
-                            <div class="betasource-service-icon">
-                                <img src="assets/img/about/s3.svg" alt="about" title="about">
-                            </div>
-                            <div class="betasource-service-title">
-                                <h2> Software Testing </h2>
-                            </div>
-                            <div class="service-number">
-                                <h1> 02 </h1>
-                            </div>
-                            <div class="betasource-service-text">
-                                <p> We understand the importance of software testing to ensure the quality and
-                                    reliability of software applications. Our experienced team of testers employs a
-                                    range of testing techniques to identify and address potential issues in the
-                                    software. We conduct various tests, including functional testing, regression
-                                    testing, and user acceptance testing, to ensure that the software meets the desired
-                                    requirements and performs as expected. </p>
-                            </div>
-                            <div class="service-button">
-                                <a href="SoftwareTesting/software-testing.html"> Read More <i class="bi bi-plus"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <div class="col-lg-3 col-md-6 pt-5 d-flex">
-                    <div class="betasource-service-box wow slideInUp" data-wow-delay="0.4s">
-                        <div class="service-box-inner">
-                            <div class="betasource-service-icon">
-                                <img src="assets/img/about/s1.svg" alt="about" title="about">
-                            </div>
-                            <div class="betasource-service-title">
-                                <h2> DevOps </h2>
-                            </div>
-                            <div class="service-number">
-                                <h1> 03 </h1>
-                            </div>
-                            <div class="betasource-service-text">
-                                <p> DevOps has emerged as a critical approach to software development and deployment in
-                                    recent years, bringing together software development and operations teams to work
-                                    together more closely and effectively. BetaSource help companies adopt this approach
-                                    and achieve benefits, including faster time-to-market, greater agility, and
-                                    higher-quality software. </p>
-                            </div>
-                            <div class="service-button">
-                                <a href="devops/devops.html"> Read More <i class="bi bi-plus"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pt-5 d-flex">
-                    <div class="betasource-service-box wow slideInUp" data-wow-delay="0.6s">
-                        <div class="service-box-inner">
-                            <div class="betasource-service-icon">
-                                <img src="assets/img/about/s2.svg" alt="about" title="about">
-                            </div>
-                            <div class="betasource-service-title">
-                                <h2> Cloud </h2>
-                            </div>
-                            <div class="service-number">
-                                <h1> 04 </h1>
-                            </div>
-                            <div class="betasource-service-text">
-                                <p> Betasource offers cutting-edge cloud services to help your business streamline
-                                    operations and increase efficiency. Our cloud solutions are designed to provide
-                                    secure and scalable infrastructure, enabling your team to accessible access data and
-                                    applications from any location in the world. A group of experienced professionals
-                                    can help you migrate to the cloud, optimize your existing cloud environment, and
-                                    provide ongoing support to ensure your business stays ahead of the curve. </p>
-                            </div>
-                            <div class="service-button">
-                                <a href="cloud/cloud-services.html"> Read More <i class="bi bi-plus"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 pt-5 d-flex">
-                    <div class="betasource-service-box wow slideInUp" data-wow-delay="0.6s">
-                        <div class="service-box-inner">
-                            <div class="betasource-service-icon">
-                                <img src="assets/img/about/s5.svg" alt="about" title="about">
-                            </div>
-                            <div class="betasource-service-title">
-                                <h2> Trending Technology </h2>
-                            </div>
-                            <div class="service-number">
-                                <h1> 05 </h1>
-                            </div>
-                            <div class="betasource-service-text">
-                                <p> World of technology is constantly evolving, and there are always new and exciting
-                                    developments. Today's most trending technology developments include artificial
-                                    intelligence, virtual reality, augmented reality, IoT Development and blockchain.
-                                    Artificial intelligence has gained immense popularity as it can revolutionize
-                                    various industries by automating processes and improving decision-making. </p>
-                            </div>
-                            <div class="service-button">
-                                <a href="trending-technology/trending-technology.html"> Read More <i
-                                        class="bi bi-plus"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div
+              class="rounded-btn text-end wow slideInRight"
+              data-wow-delay="0.2s"
+            >
+              <a href="index.html"
+                >All Services <i class="fas fa-long-arrow-alt-right"></i
+              ></a>
             </div>
+          </div>
         </div>
-    </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-3 col-md-6 pt-5 d-flex">
+            <div
+              class="betasource-service-box wow slideInUp"
+              data-wow-delay="0.8s"
+            >
+              <div class="service-box-inner">
+                <div class="betasource-service-icon">
+                  <img
+                    src="assets/img/about/s4.svg"
+                    alt="about"
+                    title="about"
+                  />
+                </div>
+                <div class="betasource-service-title">
+                  <h2>Software Development</h2>
+                </div>
 
+                <div class="betasource-service-text">
+                  <p>
+                    Betasource is a leading force in the software development industry, dedicated to providing innovative solutions for clients to thrive in today's digital landscape. With our experienced team of developers and unwavering commitment to delivering results, we continuously push the boundaries of technology to drive success.</p>
+                </div>
+                <div class="service-button">
+                  <a href="software-development/software-developmnet.html">
+                    Read More <i class="bi bi-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 pt-5 d-flex">
+            <div
+              class="betasource-service-box wow slideInUp"
+              data-wow-delay="0.4s"
+            >
+              <div class="service-box-inner">
+                <div class="betasource-service-icon">
+                  <img
+                    src="assets/img/about/s1.svg"
+                    alt="about"
+                    title="about"
+                  />
+                </div>
+                <div class="betasource-service-title">
+                  <h2>DevOps</h2>
+                </div>
+
+                <div class="betasource-service-text">
+                  <p>DevOps has become essential in modern software development and deployment, uniting development and operations teams for enhanced collaboration and efficiency. At BetaSource, we specialize in guiding companies through this transformative approach, enabling faster time-to-market, increased agility, and superior software quality.</p>
+                </div>
+                <div class="service-button">
+                  <a href="devops/devops.html">
+                    Read More <i class="bi bi-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 pt-5 d-flex">
+            <div
+              class="betasource-service-box wow slideInUp"
+              data-wow-delay="0.6s"
+            >
+              <div class="service-box-inner">
+                <div class="betasource-service-icon">
+                  <img
+                    src="assets/img/about/s2.svg"
+                    alt="about"
+                    title="about"
+                  />
+                </div>
+                <div class="betasource-service-title">
+                  <h2>Cloud</h2>
+                </div>
+
+                <div class="betasource-service-text">
+                  <p>Betasource delivers cutting-edge cloud services to optimize your business operations and boost efficiency. Our secure and scalable solutions empower your team with global access to data and applications from anywhere. Backed by a team of seasoned professionals, we offer seamless cloud migration, optimization, and ongoing support to keep your business at the forefront of innovation.</p>
+                </div>
+                <div class="service-button">
+                  <a href="cloud/cloud-services.html">
+                    Read More <i class="bi bi-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 pt-5 d-flex">
+            <div
+              class="betasource-service-box wow slideInUp"
+              data-wow-delay="0.6s"
+            >
+              <div class="service-box-inner">
+                <div class="betasource-service-icon">
+                  <img
+                    src="assets/img/about/s5.svg"
+                    alt="about"
+                    title="about"
+                  />
+                </div>
+                <div class="betasource-service-title">
+                  <h2>Trending Technology</h2>
+                </div>
+
+                <div class="betasource-service-text">
+                  <p>
+                    The world of technology is in a constant state of evolution, with new and exciting developments emerging regularly. Among today's most trending advancements are artificial intelligence, virtual reality, augmented reality, IoT development, and blockchain. Artificial intelligence, in particular, is capturing significant attention for its potential to revolutionize industries through process automation and enhanced decision-making capabilities.</p>
+                </div>
+                <div class="service-button">
+                  <a href="trending-technology/trending-technology.html">
+                    Read More <i class="bi bi-plus"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Industries We Serve Start -->
     <div class="container industries-serve my-5">
-        <div class="row d-flex align-items-center">
-            <div class="col-lg-8">
-                <img src="assets/img/about/industries.svg" class="img-fluid industries-img">
-            </div>
-            <div class="col-lg-4">
-                <div class="common-about-shape">
-                    <div class="common-about-shape1-thumb1 bounce-animate2">
-                        <img src="assets/img/about/shape7.png" class="img-fluid" alt="about" title="about">
-                    </div>
-                </div>
-                <div class="section-head mb-4">
-                    <h5 class="small-heading"> Industries </h5>
-                    <h3>Serve a Diverse Range of Industries with <br><span> Cutting-Edge</span> Solutions</h3>
-                    <div class="lines pt-2 pb-4 wow slideInRight" data-wow-delay="0.1s">
-                        <div class="line"></div>
-                    </div>
-                    <p>
-                        Betasource is serving a diverse range of industries! Our innovative solutions are designed to
-                        meet the unique needs of each and every one of our clients. We offer the most trending
-                        technology developments, including artificial intelligence, virtual reality, augmented reality,
-                        and blockchain.
-                    </p>
-                </div>
-            </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-lg-8">
+          <img
+            src="assets/img/about/industries.svg"
+            class="img-fluid industries-img"
+          />
         </div>
+        <div class="col-lg-4">
+          <div class="common-about-shape">
+            <div class="common-about-shape1-thumb1 bounce-animate2">
+              <img
+                src="assets/img/about/shape7.png"
+                class="img-fluid"
+                alt="about"
+                title="about"
+              />
+            </div>
+          </div>
+          <div class="section-head mb-4">
+            <h5 class="small-heading">Industries</h5>
+            <h3>
+              Serve a Diverse Range of Industries with <br /><span>
+                Cutting-Edge</span
+              >
+              Solutions
+            </h3>
+            <div class="lines pt-2 pb-4 wow slideInRight" data-wow-delay="0.1s">
+              <div class="line"></div>
+            </div>
+            <p>
+              Betasource is serving a diverse range of industries! Our
+              innovative solutions are designed to meet the unique needs of each
+              and every one of our clients. We offer the most trending
+              technology developments, including artificial intelligence,
+              virtual reality, augmented reality, and blockchain.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Industries We Serve End -->
 
-
     <!-- FAQ's Start -->
     <div class="container-fluid faq-section software-faqs mo-px-1 px-5 py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-head mb-4">
-                        <h5 class="small-heading text-white"> FAQ </h5>
-                        <h3 class="text-white"> Freequently Asked <span> Question </span> </h3>
-                    </div>
-                    <p class="text-white">
-                        Betasource is a technology company offering a range of services, including software development,
-                        testing, DevOps, cloud services, and 24/7 support. To help clients understand our services and
-                        how they can benefit, we have created a comprehensive FAQ page that answers common questions
-                        about our company and services.
-                    </p>
-                </div>
-                <div class="col-lg-12">
-                    <div class="accordion accordion-flush pt-4" id="tab_container">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
-                                    <span>What services does Betasource offer?</span>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#tab_container">
-                                <div class="accordion-body">
-                                    Betasource offers a range of services, including software development, software
-                                    testing, DevOps, cloud services and New Technologies development.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                    aria-controls="flush-collapseTwo">
-                                    <span>What makes Betasource different from other technology companies?</span>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingTwo" data-bs-parent="#tab_container">
-                                <div class="accordion-body">
-                                    Experts stay up-to-date with the latest technologies and trends to provide our
-                                    clients with the best possible solutions.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFour">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                    aria-controls="flush-collapseFour">
-                                    <span>What is the pricing model for Betasource's services?</span>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFour" data-bs-parent="#tab_container">
-                                <div class="accordion-body">
-                                    Betasource team will work with you to understand your budget and goals and to find a
-                                    pricing model that works for you
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingFive">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                    aria-controls="flush-collapseFive">
-                                    <span>Does Betasource offer custom solutions?</span>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingFive" data-bs-parent="#tab_container">
-                                <div class="accordion-body">
-                                    Yes, Betasource offers customized solutions to meet each client's specific needs.
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingSix">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                    aria-controls="flush-collapseSix">
-                                    <span>What industries does Betasource serve?</span>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseSix" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingSix" data-bs-parent="#tab_container">
-                                <div class="accordion-body">
-                                    Betasource serves a range of industries, including technology, finance, healthcare,
-                                    and retail.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingSeven">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseSeven" aria-expanded="false"
-                                    aria-controls="flush-collapseSeven">
-                                    <span>How does Betasource ensure the security of client data?</span>
-                                </button>
-                            </h2>
-                            <div id="flush-collapseSeven" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingSeven" data-bs-parent="#tab_container">
-                                <div class="accordion-body">
-                                    Betasource Takes the security of client data very seriously and implements a range
-                                    of security measures to ensure confidentiality.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="form-shape">
-                    <div class="faq-shape-thumb">
-                        <img src="../assets/img/faq-shape.webp" class="img-fluid" alt="about" title="about">
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-head mb-4">
+              <h5 class="small-heading text-white">FAQ</h5>
+              <h3 class="text-white">
+                Freequently Asked <span> Question </span>
+              </h3>
             </div>
+            <p class="text-white">
+              Betasource is a technology company offering a range of services,
+              including software development, testing, DevOps, cloud services,
+              and 24/7 support. To help clients understand our services and how
+              they can benefit, we have created a comprehensive FAQ page that
+              answers common questions about our company and services.
+            </p>
+          </div>
+          <div class="col-lg-12">
+            <div class="accordion accordion-flush pt-4" id="tab_container">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    <span>What services does Betasource offer?</span>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#tab_container"
+                >
+                  <div class="accordion-body">
+                    Betasource offers a range of services, including software
+                    development, software testing, DevOps, cloud services and
+                    New Technologies development.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    <span
+                      >What makes Betasource different from other technology
+                      companies?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#tab_container"
+                >
+                  <div class="accordion-body">
+                    Experts stay up-to-date with the latest technologies and
+                    trends to provide our clients with the best possible
+                    solutions.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    <span
+                      >What is the pricing model for Betasource's
+                      services?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#tab_container"
+                >
+                  <div class="accordion-body">
+                    Betasource team will work with you to understand your budget
+                    and goals and to find a pricing model that works for you
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    <span>Does Betasource offer custom solutions?</span>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#tab_container"
+                >
+                  <div class="accordion-body">
+                    Yes, Betasource offers customized solutions to meet each
+                    client's specific needs.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSix"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSix"
+                  >
+                    <span>What industries does Betasource serve?</span>
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSix"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSix"
+                  data-bs-parent="#tab_container"
+                >
+                  <div class="accordion-body">
+                    Betasource serves a range of industries, including
+                    technology, finance, healthcare, and retail.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseSeven"
+                  >
+                    <span
+                      >How does Betasource ensure the security of client
+                      data?</span
+                    >
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseSeven"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingSeven"
+                  data-bs-parent="#tab_container"
+                >
+                  <div class="accordion-body">
+                    Betasource Takes the security of client data very seriously
+                    and implements a range of security measures to ensure
+                    confidentiality.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-shape">
+            <div class="faq-shape-thumb">
+              <img
+                src="../assets/img/faq-shape.webp"
+                class="img-fluid"
+                alt="about"
+                title="about"
+              />
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- FAQ's End -->
-
 
     <!-- Brand Slider Start -->
     <div id="brand" class="container-fluid py-5 brandSlider"></div>
     <!-- Brand Slider End -->
 
-
-
     <!-- Footer Start -->
     <div id="footer"></div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="assets/js/jquery-3.4.1.min.js"></script>
@@ -613,6 +792,5 @@
 
     <!-- Template Javascript -->
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
