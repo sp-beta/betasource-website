@@ -1206,8 +1206,9 @@ video {
     box-shadow: 0 0 40px rgb(0 0 0 / 6%);
     background: url(../img/home/img6.png);
     padding: 56px 16px 28px 30px;
+
     position: relative;
-    margin: 30px 0px;
+    margin: 0px 0px;
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -1310,7 +1311,6 @@ video {
 
 .choose-section .choose-single-box {
     background: #292728;
-    padding: 19px 12px 17px 28px;
     transition: .5s;
     margin-bottom: 20px;
     border-radius: 7px;
@@ -3301,7 +3301,6 @@ video {
 
 .service-providing .betasource-service-text p {
     transition: .5s;
-    text-align: justify;
 }
 
 .service-providing .service-button a {
