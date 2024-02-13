@@ -1,863 +1,1466 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <title>Betasorce.Tech's Diverse Portfolio in Software and App Development</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="title" content="Betasorce.Tech's Diverse Portfolio in Software and App Development">
-    <meta name="description" content="Discover the prowess of Betasorce.Tech through our extensive portfolio. From IoT and AI to ML, explore innovative software and app development projects that showcase our expertise.">
-    <meta name="keywords" content="Betasource, Betasource.Tech, Software Development, DevOps, Cloud, Testing, IoT, Blockchain, App Devlopment,Cyber Security, Technology, Innovation, Ci/CD,AL/ML, VR,AR, New Technology Service Provider, JavaScript,Python,Ai , Software Tesing">
+  <head>
+    <meta charset="utf-8" />
+    <title>
+      Betasorce.Tech's Diverse Portfolio in Software and App Development
+    </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta
+      name="title"
+      content="Betasorce.Tech's Diverse Portfolio in Software and App Development"
+    />
+    <meta
+      name="description"
+      content="Discover the prowess of Betasorce.Tech through our extensive portfolio. From IoT and AI to ML, explore innovative software and app development projects that showcase our expertise."
+    />
+    <meta
+      name="keywords"
+      content="Betasource, Betasource.Tech, Software Development, DevOps, Cloud, Testing, IoT, Blockchain, App Devlopment,Cyber Security, Technology, Innovation, Ci/CD,AL/ML, VR,AR, New Technology Service Provider, JavaScript,Python,Ai , Software Tesing"
+    />
     <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/",
-          "@type": "WebSite",
-          "name": "betasource.tech",
-          "url": "https://betasource.tech/",
-          "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://betasource.tech/index.html{search_term_string}",
-            "query-input": "required name=search_term_string"
-          }
+      {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "betasource.tech",
+        "url": "https://betasource.tech/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://betasource.tech/index.html{search_term_string}",
+          "query-input": "required name=search_term_string"
         }
+      }
     </script>
-    
+
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.png" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="assets/lib/animate/animate.min.css" rel="stylesheet">
-    <link href="assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
-</head>
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+  </head>
 
-<body class="bg-white">
+  <body class="bg-white">
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+    <!-- Navbar Start -->
+    <div id="navHeader" class="container-fluid nav-bar bg-transparent"></div>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid header bg-white breadcumb-area p-0">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-12">
+            <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
+              <h1>Portfolio</h1>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Portfolio</li>
+              </ul>
             </div>
+          </div>
+          <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
+            <div class="breadcumb-content addon">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Portfolio</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <!-- Spinner End -->
+      </div>
+    </div>
+    <!-- Header End -->
 
-
-        <!-- Navbar Start -->
-        <div id="navHeader" class="container-fluid nav-bar bg-transparent"></div> 
-        <!-- Navbar End -->
-
-
-        <!-- Header Start -->
-        <div class="container-fluid header bg-white breadcumb-area p-0">
-            <div class="container">
-                <div class="row d-flex align-items-center">
-                    <div class="col-lg-12">
-                        <div class="breadcumb-content wow slideInUp" data-wow-delay="0.2s">
-                            <h1> Portfolio </h1>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li> Portfolio </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="britcam-shape wow slideInUp" data-wow-delay="0.4s">
-                        <div class="breadcumb-content addon">
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li> Portfolio </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- portfolio  Start -->
+    <div class="container caseStudies caseStudies-aadon py-5 my-5">
+      <!-- <div class="row mb-4">
+        <div class="portfolio-shape">
+          <div class="port-shape-thumb">
+            <img
+              src="assets/img/case-studies/shape1.png"
+              class="img-fluid"
+              alt="portfolio"
+              title="portfolio"
+            />
+          </div>
         </div>
-        <!-- Header End -->
-
-
-
-        <!-- portfolio  Start -->
-        <div class="container caseStudies caseStudies-aadon py-5 my-5">
-            <div class="row mb-4">
-                <div class="portfolio-shape">
-                    <div class="port-shape-thumb">
-                        <img src="assets/img/case-studies/shape1.png" class="img-fluid" alt="portfolio" title="portfolio">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <img src="assets/img/case-studies/c33.jpg" class="img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <div class="section-head mb-4 wow slideInDown" data-wow-delay="0.1s">
-                        <h5 class="small-heading"> Our Expertise  </h5>
-                        <p> <span> Blockchain  </span>Ethereum, Binance Smart Chain, Tron, Polygon, Optimism, Arbitrum, Harmony, Wax</p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://play.google.com/store/apps/details?id=com.planetenft.eaglerunner ">Move-to-Earn App</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://play.google.com/store/apps/details?id=com.villa.crush ">Crypto Game</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://galaxylotto.app/">LOTTERY & NFT</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://superex.com/index">DEX</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://roo.finance/">NFT LAUNCHPAD</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://incasnft.com/">NFT PROJECT</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://eaglenetwork.app/">TOKEN</a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="blockchain_box"> 
-                                <a href="https://halflings.art/">NFT STAKING (MAINNET)</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                
-                <div class="col-md-4">
-                    <div class="blockchain_box"> 
-                        <a href="https://moonboxes.io/">NFT LAUNCHPAD (MAINNET)</a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blockchain_box"> 
-                        <a href="https://moonsea.io/">NFT MARKETPLACE (MAINNET) </a>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="blockchain_box"> 
-                        <a href="https://srsswap.com/">SWAPPING/EXCHANGE CONTRACT</a>
-                    </div>
-                </div>         
-                 <!-- <div class="col-md-6">
-                    <img src="assets/img/case-studies/c34.jpg" class="img-fluid">
-                 </div> -->
+        <div class="col-md-6">
+          <img src="assets/img/case-studies/c33.jpg" class="img-fluid" />
+        </div>
+        <div class="col-md-6">
+          <div class="section-head mb-4 wow slideInDown" data-wow-delay="0.1s">
+            <h5 class="small-heading">Our Expertise</h5>
+            <p>
+              <span> Blockchain </span>Ethereum, Binance Smart Chain, Tron,
+              Polygon, Optimism, Arbitrum, Harmony, Wax
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.planetenft.eaglerunner "
+                  >Move-to-Earn App</a
+                >
+              </div>
             </div>
-            <div class="row">
-                <!-- <div class="portfolio-shape">
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.villa.crush "
+                  >Crypto Game</a
+                >
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a href="https://galaxylotto.app/">LOTTERY & NFT</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a href="https://superex.com/index">DEX</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a href="https://roo.finance/">NFT LAUNCHPAD</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a href="https://incasnft.com/">NFT PROJECT</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a href="https://eaglenetwork.app/">TOKEN</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="blockchain_box">
+                <a href="https://halflings.art/">NFT STAKING (MAINNET)</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="blockchain_box">
+            <a href="https://moonboxes.io/">NFT LAUNCHPAD (MAINNET)</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blockchain_box">
+            <a href="https://moonsea.io/">NFT MARKETPLACE (MAINNET) </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blockchain_box">
+            <a href="https://srsswap.com/">SWAPPING/EXCHANGE CONTRACT</a>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <!-- <div class="portfolio-shape">
                     <div class="port-shape-thumb">
                         <img src="assets/img/case-studies/shape1.png" class="img-fluid" alt="portfolio" title="portfolio">
                     </div>
                 </div> -->
-                <div class="col-lg-12">
-                    <div class="section-head text-center mb-4 wow slideInDown" data-wow-delay="0.1s">
-                        <h5 class="small-heading"> Portfolio  </h5>
-                        <h3> We Server the Best Works View <span> Portfolio  </span></h3>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c3.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c3.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> QuickCam </h6>
-                                        <h3> <a href="https://quickcam.app/" target="_blank"> Consulting for Business Organizations </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://quickcam.app/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c4.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c4.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> iDiamond Cloud </h6>
-                                        <h3> <a href="https://idiamondcloud.com/" target="_blank"> Consulting for Business Organizations </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://idiamondcloud.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c5.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c5.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Catch News </h6>
-                                        <h3> <a href="https://www.catchnews.com/" target="_blank"> Consulting for Business Organizations </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.catchnews.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c6.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c6.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Wooldridge Boats </h6>
-                                        <h3> <a href="https://www.wooldridgeboats.com/" target="_blank"> Consulting for Business Organizations </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.wooldridgeboats.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c7.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c7.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Video Editor </h6>
-                                        <h3> <a href="https://play.google.com/store/apps/details?id=com.app.videoeditor.videoallinone&gl=US" target="_blank"> Video All in one Editor </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://play.google.com/store/apps/details?id=com.app.videoeditor.videoallinone&gl=US" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c8.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c8.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Audio - Video Editor </h6>
-                                        <h3> <a href="https://play.google.com/store/apps/details?id=jn.app.musiceditor.musicmeter&gl=US" target="_blank"> All in one Audio - Video Editor </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://play.google.com/store/apps/details?id=jn.app.musiceditor.musicmeter&gl=US" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c9.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c9.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> QuickCam </h6>
-                                        <h3> <a href="https://play.google.com/store/apps/details?id=com.app.quickcam" target="_blank"> Create fun and engaging videos </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://play.google.com/store/apps/details?id=com.app.quickcam" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c16.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c16.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> View </h6>
-                                        <h3> <a href="https://apps.apple.com/us/app/view-wellness/id1587415074" target="_blank"> View Wellness </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://apps.apple.com/us/app/view-wellness/id1587415074" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c1.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c1.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> NiceFoto </h6>
-                                        <h3> <a href="https://en.nicefoto.cn/" target="_blank"> Consulting for Business Organizations </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://en.nicefoto.cn/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c2.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c2.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Singer India </h6>
-                                        <h3> <a href="https://singerindia.net/" target="_blank"> Consulting for Business Organizations </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://singerindia.net/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c11.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c11.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> PRIMO Furnishings </h6>
-                                        <h3> <a href="https://primo-furnishings.myshopify.com/" target="_blank"> For complete home or project furniture. </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://primo-furnishings.myshopify.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c12.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c12.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Getlatka </h6>
-                                        <h3> <a href="https://getlatka.com/" target="_blank"> A SaaS Database </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://getlatka.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c13.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c13.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> CatholicHUB </h6>
-                                        <h3> <a href="https://catholichub.tv/" target="_blank"> An Initative jesus closer to believers </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://catholichub.tv/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c14.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c14.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> CatholicHUB </h6>
-                                        <h3> <a href="https://play.google.com/store/apps/details?id=com.catholichub" target="_blank"> Catholic HUB LIVE TV and Radio App </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://play.google.com/store/apps/details?id=com.catholichub" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c15.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c15.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> View </h6>
-                                        <h3> <a href="https://apps.apple.com/us/app/view-dynamic-glass/id1320306940?platform=iphone" target="_blank"> View Dynamic Glass </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://apps.apple.com/us/app/view-dynamic-glass/id1320306940?platform=iphone" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c17.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c17.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> AT&T </h6>
-                                        <h3> <a href="https://www.att-promotions.com/" target="_blank"> AT&T Preferred Dealer </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.att-promotions.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c19.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c19.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> BOND </h6>
-                                        <h3> <a href="https://communitybond.io/" target="_blank"> BOND Escape the Ordinary </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://communitybond.io/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c20.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c20.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Toyota </h6>
-                                        <h3> <a href="https://www.toyota.ae/en/" target="_blank"> Toyota </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.toyota.ae/en/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c21.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c21.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Roostent </h6>
-                                        <h3> <a href="https://roostent.com/" target="_blank"> Roostent Tenant Management </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://roostent.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c22.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c22.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Community Bond </h6>
-                                        <h3> <a href="https://apps.apple.com/in/app/community-bond/id1489994731" target="_blank"> Community Bond </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://apps.apple.com/in/app/community-bond/id1489994731" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c23.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c22.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> HABEKO </h6>
-                                        <h3> <a href="https://hb-kontor.de/en/" target="_blank"> HABEKO </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://hb-kontor.de/en/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c24.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c24.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Upay </h6>
-                                        <h3> <a href="https://www.upay.org.in/" target="_blank"> UPAY – The Solution </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.upay.org.in/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c25.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c25.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Wishbone </h6>
-                                        <h3> <a href="http://wishbone.io/" target="_blank"> Wishbone - Compare Anything </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="http://wishbone.io/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c26.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c26.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Claymen </h6>
-                                        <h3> <a href="https://claymen.in/" target="_blank"> Claymen </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://claymen.in/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c27.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c27.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Nailcurator </h6>
-                                        <h3> <a href="https://nailcurator.com/" target="_blank"> Nailcurator </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://nailcurator.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c28.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c28.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> 22DABE22 </h6>
-                                        <h3> <a href="https://www.22dabe22.com/" target="_blank"> 22DABE22 </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.22dabe22.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c29.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c29.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> Mama Schwaz </h6>
-                                        <h3> <a href="https://www.mamaschwaz.it/" target="_blank"> Mama Schwaz </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://www.mamaschwaz.it/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c30.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c30.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> KGsports </h6>
-                                        <h3> <a href="https://kgsports.com/" target="_blank"> Ignite Your Game </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://kgsports.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c31.webp" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c31.webp" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> mmTron </h6>
-                                        <h3> <a href="https://mmtron.com/" target="_blank"> Unleashing the mmWave Frontier </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://mmtron.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="case-study-single-box">
-                        <div class="case-study-thumb2">
-                            <img src="assets/img/case-studies/c32.png" alt="portfolio" title="portfolio">
-                            <!-- port icon -->
-                            <div class="single_portfolio_icon">
-                                <a class="portfolio-icon" href="assets/img/case-studies/c32.png" class="img-fluid"><i class="bi bi-card-image"></i></a>
-                            </div>
-                            <div class="case-study-content">
-                                <div class="case-study-content-inner">
-                                    <div class="case-study-title">
-                                        <h6> AOF </h6>
-                                        <h3> <a href="https://aoffilters.com/" target="_blank"> Filtration Solved  </a> </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="video-icon style-two">
-                                <a class="video-vemo-icon" href="https://aoffilters.com/" target="_blank"><i class="fa fa-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="col-lg-12">
+          <div
+            class="section-head text-center mb-4 wow slideInDown"
+            data-wow-delay="0.1s"
+          >
+            <h5 class="small-heading">Portfolio</h5>
+            <h3>We Server the Best Works View <span> Portfolio </span></h3>
+          </div>
         </div>
-        <!-- portfolio  End -->
+      </div>
+      <div class="row mt-3">
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c3.webp"
+                alt="QuickCam"
+                title="QuickCam"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c3.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>QuickCam</h6>
+                    <h3>
+                      <a href="https://quickcam.app/" target="_blank">
+                        Consulting for Business Organizations
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://quickcam.app/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c4.webp"
+                alt=" iDiamond Cloud"
+                title=" iDiamond Cloud"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c4.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>iDiamond Cloud</h6>
+                    <h3>
+                      <a href="https://idiamondcloud.com/" target="_blank">
+                        Consulting for Business Organizations
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://idiamondcloud.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c5.webp"
+                alt="Catch News "
+                title="Catch News "
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c5.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Catch News</h6>
+                    <h3>
+                      <a href="https://www.catchnews.com/" target="_blank">
+                        Consulting for Business Organizations
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.catchnews.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c6.webp"
+                alt=" Wooldridge Boats"
+                title=" Wooldridge Boats"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c6.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Wooldridge Boats</h6>
+                    <h3>
+                      <a
+                        href="https://www.wooldridgeboats.com/"
+                        target="_blank"
+                      >
+                        Consulting for Business Organizations
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.wooldridgeboats.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c7.webp"
+                alt="Video Editor"
+                title="Video Editor"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c7.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Video Editor</h6>
+                    <h3>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.app.videoeditor.videoallinone&gl=US"
+                        target="_blank"
+                      >
+                        Video All in one Editor
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://play.google.com/store/apps/details?id=com.app.videoeditor.videoallinone&gl=US"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c8.webp"
+                alt="Audio - Video Editor "
+                title="Audio - Video Editor "
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c8.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Audio - Video Editor</h6>
+                    <h3>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=jn.app.musiceditor.musicmeter&gl=US"
+                        target="_blank"
+                      >
+                        All in one Audio - Video Editor
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://play.google.com/store/apps/details?id=jn.app.musiceditor.musicmeter&gl=US"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c9.webp"
+                alt="QuickCam"
+                title="QuickCam"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c9.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>QuickCam</h6>
+                    <h3>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.app.quickcam"
+                        target="_blank"
+                      >
+                        Create fun and engaging videos
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://play.google.com/store/apps/details?id=com.app.quickcam"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c16.webp"
+                alt="View"
+                title="View"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c16.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>View</h6>
+                    <h3>
+                      <a
+                        href="https://apps.apple.com/us/app/view-wellness/id1587415074"
+                        target="_blank"
+                      >
+                        View Wellness
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://apps.apple.com/us/app/view-wellness/id1587415074"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c1.webp"
+                alt="NiceFoto"
+                title="NiceFoto"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c1.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>NiceFoto</h6>
+                    <h3>
+                      <a href="https://en.nicefoto.cn/" target="_blank">
+                        Consulting for Business Organizations
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://en.nicefoto.cn/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c2.webp"
+                alt="Singer India"
+                title="Singer India"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c2.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Singer India</h6>
+                    <h3>
+                      <a href="https://singerindia.net/" target="_blank">
+                        Consulting for Business Organizations
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://singerindia.net/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c11.webp"
+                alt="PRIMO Furnishings"
+                title="PRIMO Furnishings"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c11.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>PRIMO Furnishings</h6>
+                    <h3>
+                      <a
+                        href="https://primo-furnishings.myshopify.com/"
+                        target="_blank"
+                      >
+                        For complete home or project furniture.
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://primo-furnishings.myshopify.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c12.webp"
+                alt="Getlatka"
+                title="Getlatka"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c12.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Getlatka</h6>
+                    <h3>
+                      <a href="https://getlatka.com/" target="_blank">
+                        A SaaS Database
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://getlatka.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c13.webp"
+                alt="CatholicHUB"
+                title="CatholicHUB"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c13.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>CatholicHUB</h6>
+                    <h3>
+                      <a href="https://catholichub.tv/" target="_blank">
+                        An Initative jesus closer to believers
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://catholichub.tv/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c14.webp"
+                alt="CatholicHUB"
+                title="CatholicHUB"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c14.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>CatholicHUB</h6>
+                    <h3>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.catholichub"
+                        target="_blank"
+                      >
+                        Catholic HUB LIVE TV and Radio App
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://play.google.com/store/apps/details?id=com.catholichub"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c15.webp"
+                alt="View"
+                title="View"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c15.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>View</h6>
+                    <h3>
+                      <a
+                        href="https://apps.apple.com/us/app/view-dynamic-glass/id1320306940?platform=iphone"
+                        target="_blank"
+                      >
+                        View Dynamic Glass
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://apps.apple.com/us/app/view-dynamic-glass/id1320306940?platform=iphone"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c17.webp"
+                alt=" AT&T Preferred Dealer "
+                title=" AT&T Preferred Dealer "
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c17.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>AT&T</h6>
+                    <h3>
+                      <a href="https://www.att-promotions.com/" target="_blank">
+                        AT&T Preferred Dealer
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.att-promotions.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c19.webp"
+                alt="BOND"
+                title="BOND"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c19.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>BOND</h6>
+                    <h3>
+                      <a href="https://communitybond.io/" target="_blank">
+                        BOND Escape the Ordinary
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://communitybond.io/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c20.webp"
+                alt="Toyota"
+                title="Toyota"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c20.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Toyota</h6>
+                    <h3>
+                      <a href="https://www.toyota.ae/en/" target="_blank">
+                        Toyota
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.toyota.ae/en/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c21.webp"
+                alt="Roostent"
+                title="Roostent"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c21.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Roostent</h6>
+                    <h3>
+                      <a href="https://roostent.com/" target="_blank">
+                        Roostent Tenant Management
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://roostent.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c22.webp"
+                alt="Community Bond "
+                title="Community Bond "
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c22.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Community Bond</h6>
+                    <h3>
+                      <a
+                        href="https://apps.apple.com/in/app/community-bond/id1489994731"
+                        target="_blank"
+                      >
+                        Community Bond
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://apps.apple.com/in/app/community-bond/id1489994731"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c23.webp"
+                alt="HABEKO"
+                title="HABEKO"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c22.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>HABEKO</h6>
+                    <h3>
+                      <a href="https://hb-kontor.de/en/" target="_blank">
+                        HABEKO
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://hb-kontor.de/en/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c24.webp"
+                alt="Upay"
+                title="Upay"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c24.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Upay</h6>
+                    <h3>
+                      <a href="https://www.upay.org.in/" target="_blank">
+                        UPAY – The Solution
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.upay.org.in/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c25.webp"
+                alt="Wishbone"
+                title="Wishbone"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c25.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Wishbone</h6>
+                    <h3>
+                      <a href="http://wishbone.io/" target="_blank">
+                        Wishbone - Compare Anything
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="http://wishbone.io/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c26.webp"
+                alt="Claymen"
+                title="Claymen"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c26.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Claymen</h6>
+                    <h3>
+                      <a href="https://claymen.in/" target="_blank">
+                        Claymen
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://claymen.in/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c27.webp"
+                alt="Nailcurator"
+                title="Nailcurator"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c27.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Nailcurator</h6>
+                    <h3>
+                      <a href="https://nailcurator.com/" target="_blank">
+                        Nailcurator
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://nailcurator.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c28.webp"
+                alt="22DABE22"
+                title="22DABE22"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c28.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>22DABE22</h6>
+                    <h3>
+                      <a href="https://www.22dabe22.com/" target="_blank">
+                        22DABE22
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.22dabe22.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c29.webp"
+                alt="Mama Schwaz"
+                title="Mama Schwaz"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c29.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>Mama Schwaz</h6>
+                    <h3>
+                      <a href="https://www.mamaschwaz.it/" target="_blank">
+                        Mama Schwaz
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://www.mamaschwaz.it/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c30.webp"
+                alt="KGsports"
+                title="KGsports"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c30.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>KGsports</h6>
+                    <h3>
+                      <a href="https://kgsports.com/" target="_blank">
+                        Ignite Your Game
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://kgsports.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c31.webp"
+                alt="mmTron"
+                title="mmTron"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c31.webp"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>mmTron</h6>
+                    <h3>
+                      <a href="https://mmtron.com/" target="_blank">
+                        Unleashing the mmWave Frontier
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://mmtron.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="case-study-single-box">
+            <div class="case-study-thumb2">
+              <img
+                src="assets/img/case-studies/c32.png"
+                alt="AOF"
+                title="AOF"
+              />
+              <!-- port icon -->
+              <div class="single_portfolio_icon">
+                <a
+                  class="portfolio-icon"
+                  href="assets/img/case-studies/c32.png"
+                  class="img-fluid"
+                  ><i class="bi bi-card-image"></i
+                ></a>
+              </div>
+              <div class="case-study-content">
+                <div class="case-study-content-inner">
+                  <div class="case-study-title">
+                    <h6>AOF</h6>
+                    <h3>
+                      <a href="https://aoffilters.com/" target="_blank">
+                        Filtration Solved
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="video-icon style-two">
+                <a
+                  class="video-vemo-icon"
+                  href="https://aoffilters.com/"
+                  target="_blank"
+                  ><i class="fa fa-link"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- portfolio  End -->
 
-        
+    <!-- Footer Start -->
+    <div id="footer"></div>
+    <!-- Footer End -->
 
-        <!-- Footer Start -->
-        <div id="footer"></div> 
-        <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="assets/js/jquery-3.4.1.min.js"></script>
@@ -872,6 +1475,5 @@
 
     <!-- Template Javascript -->
     <script src="assets/js/main.js"></script>
-</body>
-
+  </body>
 </html>
